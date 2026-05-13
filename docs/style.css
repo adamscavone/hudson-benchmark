@@ -14,14 +14,14 @@
   --surface-2:  #232a34;   /* card hover */
   --border:     rgba(255, 255, 255, 0.08);
   --border-2:   rgba(255, 255, 255, 0.14);
-  --text:       #e8eaed;
-  --text-mute:  #9aa0a6;
-  --text-dim:   #6b727a;
-  --gold:       #d4a85a;   /* primary accent — Hudson civic gold */
+  --text:       #ecedf0;   /* body text — slightly brighter */
+  --text-mute:  #c2c6cb;   /* secondary (was 9aa0a6 — too dim) */
+  --text-dim:   #8a9099;   /* labels / metadata (was 6b727a) */
+  --gold:       #e0b86b;   /* primary accent — slightly brighter for readable links */
   --gold-dim:   #8a6e3a;
-  --teal:       #6fa8a3;   /* secondary accent */
-  --rust:       #b87a7a;   /* Tier C accent */
-  --green:      #7eaa6f;   /* subject accent */
+  --teal:       #87bdb8;   /* secondary accent — brighter */
+  --rust:       #c79090;   /* Tier C accent */
+  --green:      #92b682;   /* subject accent */
 
   /* Typography */
   --serif: 'Fraunces', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
@@ -34,7 +34,7 @@
   --gap-s:  0.875rem;
   --gap-m:  1.5rem;
   --gap-l:  3rem;
-  --gap-xl: 6rem;
+  --gap-xl: 4rem;
 
   /* Radii / shadow */
   --radius: 10px;
@@ -43,8 +43,9 @@
               0 12px 32px rgba(0,0,0,0.4);
 }
 
-html { font-size: 17px; }
-@media (min-width: 768px) { html { font-size: 18px; } }
+html { font-size: 17.5px; }
+@media (min-width: 768px) { html { font-size: 19px; } }
+@media (min-width: 1100px) { html { font-size: 20px; } }
 
 body {
   margin: 0;
@@ -52,7 +53,7 @@ body {
   color: var(--text);
   font-family: var(--sans);
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.6;
   font-feature-settings: 'kern' 1, 'liga' 1;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -195,25 +196,25 @@ strong { font-weight: 600; color: var(--text); }
 .hero {
   max-width: var(--content);
   margin: 0 auto;
-  padding: clamp(3rem, 8vw, 6rem) clamp(1.25rem, 4vw, 3rem) 4rem;
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 3rem) 3rem;
   text-align: left;
 }
 .kicker {
   font-family: var(--sans);
   text-transform: uppercase;
-  letter-spacing: 0.18em;
-  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  font-size: 0.85rem;
   color: var(--gold);
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 0 1rem;
 }
 .display {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(2.4rem, 7vw, 4.8rem);
-  line-height: 1.02;
+  font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+  line-height: 1.05;
   letter-spacing: -0.02em;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.25rem;
   font-variation-settings: 'opsz' 144;
 }
 .display em {
@@ -223,15 +224,15 @@ strong { font-weight: 600; color: var(--text); }
 }
 .dek {
   max-width: var(--measure);
-  font-size: clamp(1.05rem, 2vw, 1.2rem);
-  color: var(--text-mute);
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  color: var(--text);
   line-height: 1.55;
   margin: 0 0 2.5rem;
 }
 .hero-figure {
   margin: 0;
   position: relative;
-  height: clamp(240px, 50vw, 440px);
+  height: clamp(180px, 30vw, 280px);
   border-radius: var(--radius);
   border: 1px solid var(--border);
   overflow: hidden;
@@ -286,7 +287,7 @@ strong { font-weight: 600; color: var(--text); }
 .section-title {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(1.7rem, 3.5vw, 2.4rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   letter-spacing: -0.01em;
   line-height: 1.15;
   margin: 0 0 0.5rem;
@@ -297,9 +298,11 @@ strong { font-weight: 600; color: var(--text); }
 }
 .section-sub {
   max-width: var(--measure);
-  color: var(--text-mute);
-  font-size: 1rem;
-  margin: 0 0 2.5rem;
+  color: var(--text);
+  font-size: 1.02rem;
+  line-height: 1.55;
+  margin: 0 0 1.75rem;
+  opacity: 0.92;
 }
 
 /* ---------- Methodology -------------------------------------- */
@@ -343,21 +346,20 @@ strong { font-weight: 600; color: var(--text); }
   margin-bottom: 2rem;
 }
 .filter-label {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--text-dim);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
   margin-right: 0.5rem;
 }
 .filter-label-2 { margin-left: 1.5rem; }
 .filter-btn {
   font: inherit;
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   font-weight: 500;
   background: transparent;
   border: 1px solid var(--border-2);
-  color: var(--text-mute);
-  padding: 0.4rem 0.85rem;
+  color: var(--text);
+  padding: 0.42rem 0.95rem;
   border-radius: 999px;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -375,8 +377,8 @@ strong { font-weight: 600; color: var(--text); }
 /* ---------- City grid ---------------------------------------- */
 .city-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
 }
 .city-card {
   background: var(--surface);
@@ -396,7 +398,7 @@ strong { font-weight: 600; color: var(--text); }
 }
 .city-card-img {
   width: 100%;
-  height: 140px;
+  height: 110px;
   object-fit: cover;
   background: var(--ink-2);
   border-bottom: 1px solid var(--border);
@@ -434,7 +436,7 @@ strong { font-weight: 600; color: var(--text); }
 .hero-figure img[src=""] {
   visibility: hidden;
 }
-.city-card-body { padding: 1.1rem 1.25rem 1.25rem; flex: 1; display: flex; flex-direction: column; }
+.city-card-body { padding: 0.9rem 1.1rem 1rem; flex: 1; display: flex; flex-direction: column; }
 .city-card-head {
   display: flex; align-items: baseline; justify-content: space-between;
   gap: 0.5rem; margin-bottom: 0.25rem;
@@ -449,43 +451,44 @@ strong { font-weight: 600; color: var(--text); }
 }
 .city-card-meta {
   color: var(--text-dim);
-  font-size: 0.8rem;
-  margin: 0 0 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-size: 0.88rem;
+  margin: 0 0 1rem;
+  letter-spacing: 0;
+  text-transform: none;
 }
 .city-card-stats {
-  display: flex; gap: 1.25rem; margin-bottom: 0.85rem;
+  display: flex; gap: 1.5rem; margin-bottom: 1rem;
 }
 .city-card-stat .num-value {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   color: var(--text);
   letter-spacing: -0.01em;
 }
 .city-card-stat .num-label {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: 0.82rem;
   color: var(--text-dim);
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 0.1rem;
 }
 .city-card-distinctive {
-  font-size: 0.92rem;
-  color: var(--text-mute);
-  font-style: italic;
-  line-height: 1.45;
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.5;
   margin: 0;
   flex: 1;
+  opacity: 0.92;
 }
 
 /* Tier badges */
 .tier-badge {
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 0.18rem 0.5rem;
+  letter-spacing: 0.06em;
+  padding: 0.22rem 0.55rem;
   border-radius: 999px;
   border: 1px solid currentColor;
   white-space: nowrap;
@@ -505,10 +508,10 @@ strong { font-weight: 600; color: var(--text); }
 .cmp-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.92rem;
+  font-size: 1rem;
 }
 .cmp-table th, .cmp-table td {
-  padding: 0.75rem 1rem;
+  padding: 0.85rem 1.1rem;
   text-align: left;
   border-bottom: 1px solid var(--border);
   white-space: nowrap;
@@ -517,10 +520,9 @@ strong { font-weight: 600; color: var(--text); }
   position: sticky; top: 0;
   background: var(--surface-2);
   font-weight: 600;
-  color: var(--text-mute);
-  text-transform: uppercase;
-  font-size: 0.74rem;
-  letter-spacing: 0.1em;
+  color: var(--text);
+  font-size: 0.85rem;
+  letter-spacing: 0;
   cursor: pointer;
   user-select: none;
 }
@@ -538,14 +540,14 @@ strong { font-weight: 600; color: var(--text); }
 
 /* ---------- Amenity gallery ---------------------------------- */
 .amenity-category {
-  margin-bottom: 3.5rem;
-  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--border);
 }
 .amenity-category:last-child { border-bottom: none; margin-bottom: 0; }
 .amenity-head {
   display: flex; align-items: flex-start; gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .amenity-icon {
   width: 36px; height: 36px;
@@ -565,52 +567,53 @@ strong { font-weight: 600; color: var(--text); }
   margin: 0 0 0.25rem;
 }
 .amenity-blurb {
-  color: var(--text-mute);
-  font-size: 0.95rem;
+  color: var(--text);
+  font-size: 1.02rem;
+  line-height: 1.55;
   margin: 0;
   max-width: var(--measure);
+  opacity: 0.9;
 }
+/* Amenity tiles — multi-column grid (3-up desktop, 2-up tablet, 1-up mobile).
+   Cuts the gallery's vertical height by ~3x vs. one-per-row. */
 .amenity-rows {
   display: grid;
-  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.6rem 1rem;
   margin-top: 0.5rem;
 }
 .amenity-row {
-  display: grid;
-  grid-template-columns: 12rem 1fr;
-  gap: 1rem;
-  padding: 0.65rem 0;
-  border-bottom: 1px dotted var(--border);
-  font-size: 0.95rem;
-  align-items: baseline;
+  display: block;
+  padding: 0.7rem 0.85rem;
+  background: rgba(255,255,255,0.015);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  font-size: 0.98rem;
+  line-height: 1.5;
 }
-.amenity-row:last-child { border-bottom: none; }
-.amenity-row.subject .amenity-city {
-  color: var(--gold);
-  font-weight: 600;
+.amenity-row.subject {
+  background: rgba(212,168,90,0.07);
+  border-color: var(--gold-dim);
 }
+.amenity-row.subject .amenity-city { color: var(--gold); }
 .amenity-city {
   font-family: var(--serif);
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1rem;
   color: var(--text);
   letter-spacing: -0.005em;
+  display: inline;
 }
 .amenity-city-meta {
-  font-family: var(--sans);
-  font-style: normal;
-  font-weight: 400;
-  color: var(--text-dim);
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  display: none;  /* drop the secondary metadata — city name + region in card grid is enough */
+}
+.amenity-value {
+  color: var(--text);
   display: block;
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
+  opacity: 0.92;
 }
-.amenity-value { color: var(--text); }
-.amenity-value.muted { color: var(--text-dim); font-style: italic; }
-@media (max-width: 640px) {
-  .amenity-row { grid-template-columns: 1fr; gap: 0.2rem; }
-}
+.amenity-value.muted { color: var(--text-dim); }
 
 /* ---------- Distinctives panel ------------------------------- */
 .distinctives {
@@ -619,8 +622,8 @@ strong { font-weight: 600; color: var(--text); }
 }
 #distinctives-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
 }
 .dist-card {
   background: rgba(212,168,90,0.06);
@@ -635,20 +638,22 @@ strong { font-weight: 600; color: var(--text); }
   color: var(--gold);
   margin: 0 0 0.5rem;
 }
-.dist-card-body { color: var(--text); margin: 0 0 0.75rem; font-size: 0.95rem; }
+.dist-card-body { color: var(--text); margin: 0 0 0.85rem; font-size: 1.02rem; line-height: 1.55; }
 .dist-card-peer {
-  font-size: 0.85rem;
-  color: var(--text-mute);
+  font-size: 0.94rem;
+  color: var(--text);
   border-top: 1px solid var(--gold-dim);
-  padding-top: 0.65rem;
+  padding-top: 0.75rem;
+  line-height: 1.55;
+  opacity: 0.88;
 }
 .dist-card-peer strong { color: var(--teal); }
 
 /* ---------- Aspirational ------------------------------------- */
 #aspirational-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
 }
 .asp-card {
   background: var(--surface);
@@ -667,12 +672,12 @@ strong { font-weight: 600; color: var(--text); }
   margin: 0;
 }
 .asp-card-pop {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   color: var(--text-dim);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
+  text-transform: none;
 }
-.asp-card-body { color: var(--text-mute); font-size: 0.92rem; margin: 0; line-height: 1.55; }
+.asp-card-body { color: var(--text); font-size: 1rem; margin: 0; line-height: 1.6; opacity: 0.92; }
 .asp-card-body strong { color: var(--teal); }
 
 /* ---------- Cost grid ---------------------------------------- */
@@ -788,8 +793,9 @@ strong { font-weight: 600; color: var(--text); }
 #schools-content, #sources-content {
   display: grid;
   grid-template-columns: 12rem 1fr;
-  gap: 0.5rem 1.25rem;
-  font-size: 0.93rem;
+  gap: 0.75rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.55;
   padding-top: 0.5rem;
 }
 @media (max-width: 640px) {
