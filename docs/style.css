@@ -383,7 +383,16 @@ strong { font-weight: 600; color: var(--text); }
   background: var(--ink-2);
   border-bottom: 1px solid var(--border);
 }
+.city-card-photo {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+.city-card-photo:hover .city-card-img {
+  filter: brightness(1.05);
+}
 .city-card-img-placeholder {
+  position: relative;
   display: grid;
   place-items: center;
   color: var(--gold-dim);
@@ -393,6 +402,14 @@ strong { font-weight: 600; color: var(--text); }
 }
 .city-card-img-placeholder svg {
   width: 36px; height: 36px; opacity: 0.6;
+}
+.city-card-img-label {
+  position: absolute;
+  bottom: 8px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-dim);
 }
 /* Hero img graceful degradation */
 .hero-figure img:not([src]),

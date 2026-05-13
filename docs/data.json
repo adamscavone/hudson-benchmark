@@ -3,10 +3,10 @@
     "title": "Hudson, Ohio · Peer Benchmark",
     "subtitle": "Services and amenities across 14 Ohio cities",
     "compiled": "2026-05-13",
-    "version": "0.2",
+    "version": "0.3",
     "hero_image": {
       "src": "assets/photos/hudson-hero.jpg",
-      "credit": "Hudson, Ohio — historic downtown. Photo: see LICENSES.md"
+      "credit": "Hudson Clock Tower, Historic District. Photo by <a href=\"https://commons.wikimedia.org/wiki/File:Clock_Tower_entrance_(Hudson,_Ohio).jpg\" target=\"_blank\" rel=\"noopener\">Kevin Payravi</a> via Wikimedia Commons, CC BY-SA 4.0."
     }
   },
   "cities": [
@@ -22,7 +22,9 @@
       "distinctive": "Western Reserve village with a privately-endowed library, municipal electric, and municipal fiber.",
       "photo": {
         "src": "assets/photos/hudson.jpg",
-        "alt": "Hudson clock tower"
+        "alt": "Hudson Historic District streetscape",
+        "credit": "Photo by Kevin Payravi via Wikimedia Commons, CC BY-SA 4.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Hudson_Historic_District_section.jpg"
       },
       "utilities": {
         "electric_is_municipal": true,
@@ -124,7 +126,9 @@
       "distinctive": "Tightest size match to Hudson; world-class community-center facility; major commercial base.",
       "photo": {
         "src": "assets/photos/solon.jpg",
-        "alt": "Solon Community Center"
+        "alt": "Solon City Hall",
+        "credit": "Photo by Mayor Pez (Wikipedia user) via Wikimedia Commons, CC BY-SA 3.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:SolonCityHall.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -214,7 +218,9 @@
       "distinctive": "Hudson's closest NE Ohio twin on demographics; quieter civic profile.",
       "photo": {
         "src": "assets/photos/aurora.jpg",
-        "alt": "Aurora, Ohio town square"
+        "alt": "Church and town hall, Aurora Center Historic District",
+        "credit": "Photo by Nyttend via Wikimedia Commons, Public Domain",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Church_and_town_hall_in_Aurora.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -295,7 +301,9 @@
       "distinctive": "West-side lakefront old-money suburb; smaller, denser than Hudson.",
       "photo": {
         "src": "assets/photos/bay-village.jpg",
-        "alt": "Bay Village lakefront"
+        "alt": "Huntington Beach, Lake Erie, with Cleveland skyline",
+        "credit": "Photo by Heather McLaughlin via Wikimedia Commons, CC BY 2.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Huntington_Beach_With_Downtown_Cleveland_In_Background.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -379,7 +387,9 @@
       "distinctive": "West-side Cuyahoga peer on culture and geography; median income lower than other Tier A.",
       "photo": {
         "src": "assets/photos/rocky-river.jpg",
-        "alt": "Rocky River, Ohio"
+        "alt": "Aerial view of Rocky River harbor and Lake Erie entrance",
+        "credit": "Photo by Ken Winters, U.S. Army Corps of Engineers via Wikimedia Commons, Public Domain",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Rocky_River_Ohio_aerial_view.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -462,10 +472,6 @@
       "median_hh_income": 195495,
       "signature_amenity": "Columbus Zoo + Olentangy school district",
       "distinctive": "Higher median income than Hudson; newer-built growth suburb; Olentangy schools.",
-      "photo": {
-        "src": "assets/photos/powell.jpg",
-        "alt": "Powell, Ohio downtown"
-      },
       "utilities": {
         "electric_is_municipal": false,
         "fiber_is_municipal": false,
@@ -543,7 +549,9 @@
       "distinctive": "Old, walkable, dense Columbus inner suburb; backdoor trash pickup; landlocked.",
       "photo": {
         "src": "assets/photos/bexley.jpg",
-        "alt": "Jeffrey Mansion, Bexley"
+        "alt": "Bexley City Hall",
+        "credit": "Photo by Sixflashphoto via Wikimedia Commons, CC BY-SA 4.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Bexley_City_Hall_1.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -630,7 +638,9 @@
       "distinctive": "Historic Columbus inner suburb with rare year-round farmers market; dedicated senior facility.",
       "photo": {
         "src": "assets/photos/worthington.jpg",
-        "alt": "Worthington, Ohio town green"
+        "alt": "Downtown Worthington, Old Worthington Historic District",
+        "credit": "Photo by Nyttend via Wikimedia Commons, Public Domain",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Downtown_Worthington,_Ohio.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -721,7 +731,9 @@
       "distinctive": "Master-planned Georgian community; the highest-income city in this benchmark.",
       "photo": {
         "src": "assets/photos/new-albany.jpg",
-        "alt": "New Albany village center"
+        "alt": "New Albany Village Hall",
+        "credit": "Photo by Sixflashphoto via Wikimedia Commons, CC BY-SA 4.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:New_Albany_City_Hall_1.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -804,7 +816,9 @@
       "distinctive": "Larger than peer band; the Ohio 'gold-standard' historic suburb. 'Old Arlington' core matches Hudson character.",
       "photo": {
         "src": "assets/photos/upper-arlington.jpg",
-        "alt": "Upper Arlington, Ohio"
+        "alt": "Aerial view of Upper Arlington",
+        "credit": "Photo by Pi.1415926535 via Wikimedia Commons, CC BY-SA 3.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Upper_Arlington,_September_2018.JPG"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -891,7 +905,9 @@
       "distinctive": "Upscale Cincinnati 'village' with strong civic identity; better Cincinnati peer than Wyoming/Mariemont on size+wealth.",
       "photo": {
         "src": "assets/photos/montgomery.jpg",
-        "alt": "Montgomery, Ohio"
+        "alt": "Yost Tavern (1805), central Montgomery",
+        "credit": "Photo by Nyttend via Wikimedia Commons, Public Domain",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Yost_Tavern_angle.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -977,7 +993,9 @@
       "distinctive": "Tiny village with high wealth and a postcard downtown; user-requested.",
       "photo": {
         "src": "assets/photos/chagrin-falls.jpg",
-        "alt": "Chagrin Falls waterfall"
+        "alt": "Chagrin Falls — the literal waterfall in downtown",
+        "credit": "Photo by AngelP8823 via Wikimedia Commons, CC BY 4.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Chagrin_Falls_Waterfall,_Ohio.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -1057,7 +1075,9 @@
       "distinctive": "Small wealthy Cincinnati boutique suburb; school-driven.",
       "photo": {
         "src": "assets/photos/madeira.jpg",
-        "alt": "Madeira, Ohio"
+        "alt": "Downtown Madeira streetscape",
+        "credit": "Photo by Ed! (Wikipedia user) via Wikimedia Commons, CC BY-SA 3.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Maderia_OH_USA.JPG"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -1146,7 +1166,9 @@
       "distinctive": "Mary Emery's master-planned village — Tudor / English-village aesthetic. Tiny but historically singular.",
       "photo": {
         "src": "assets/photos/mariemont.jpg",
-        "alt": "Mariemont, Ohio town square"
+        "alt": "Mariemont Inn (1926) on the village square",
+        "credit": "Photo by Greg Hume via Wikimedia Commons, CC BY-SA 4.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Mariemont_Inn.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -1238,7 +1260,9 @@
       "distinctive": "County-seat city. Size match to Hudson, but median HH income roughly half. A 'what wealthy suburbs take for granted' contrast.",
       "photo": {
         "src": "assets/photos/medina.jpg",
-        "alt": "Medina Square gazebo"
+        "alt": "Uptown Park gazebo on Medina Public Square",
+        "credit": "Photo by AngelP8823 via Wikimedia Commons, CC BY 4.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Uptown_Park,_Medina,_OH.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,
@@ -1327,7 +1351,9 @@
       "distinctive": "Explicit downward contrast — county seat at roughly a quarter of Hudson's median income.",
       "photo": {
         "src": "assets/photos/ravenna.jpg",
-        "alt": "Ravenna, Ohio"
+        "alt": "Downtown Ravenna along Main Street",
+        "credit": "Photo by JonRidinger via Wikimedia Commons, CC BY 3.0",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Ravenna_downtown.jpg"
       },
       "utilities": {
         "electric_is_municipal": false,

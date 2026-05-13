@@ -127,8 +127,13 @@
       card.dataset.city = city.key;
 
       const photo = city.photo && city.photo.src
-        ? `<img class="city-card-img" src="${city.photo.src}" alt="${escapeHtml(city.photo.alt || city.name)}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'city-card-img city-card-img-placeholder','innerHTML':'<svg viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'currentColor\\' stroke-width=\\'1\\' aria-hidden=\\'true\\'><path d=\\'M3 21V7l9-4 9 4v14\\'/><path d=\\'M9 21v-6h6v6\\'/></svg>'}))" />`
-        : `<div class="city-card-img city-card-img-placeholder" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21V7l9-4 9 4v14"/><path d="M9 21v-6h6v6"/></svg></div>`;
+        ? `<a class="city-card-photo" href="${escapeHtml(city.photo.page_url || '#')}" target="_blank" rel="noopener" title="${escapeHtml(city.photo.credit || '')}">
+             <img class="city-card-img" src="${city.photo.src}" alt="${escapeHtml(city.photo.alt || city.name)}" loading="lazy" />
+           </a>`
+        : `<div class="city-card-img city-card-img-placeholder" aria-hidden="true">
+             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21V7l9-4 9 4v14"/><path d="M9 21v-6h6v6"/></svg>
+             <span class="city-card-img-label">photo to come</span>
+           </div>`;
 
       const income = city.median_hh_income
         ? '$' + Math.round(city.median_hh_income / 1000) + 'K'
