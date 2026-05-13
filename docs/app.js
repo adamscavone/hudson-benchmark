@@ -310,6 +310,9 @@
   }
 
   // ---------- Costs -----------------------------------------------
+  // Two views: (1) Hudson-anchored "headline" cards at top, then
+  // (2) a sorted income-tax comparison strip across the peer set —
+  // the one cost metric we have for everyone.
   function renderCosts() {
     const grid = document.getElementById('cost-grid');
     grid.innerHTML = '';
@@ -318,13 +321,13 @@
       grid.innerHTML = '<p class="amenity-blurb">Costs to be collected.</p>';
       return;
     }
+
+    // Headline cards (Hudson)
     const metrics = [
-      { label: 'Municipal income tax', key: 'municipal_income_tax_pct', fmt: v => v != null ? v.toFixed(2) + '%' : '—', sub: 'Hudson · peers vary 1.5–2.5%' },
-      { label: 'Property tax on $500K home', key: 'effective_property_tax_per_500k', fmt: v => v ? '$' + formatNum(v) : '—', sub: 'effective millage · annual' },
-      { label: 'Water · 5,000 gal/mo', key: 'water_per_5kgal', fmt: v => v ? '$' + v.toFixed(2) : '—', sub: 'monthly' },
-      { label: 'Sewer · 5,000 gal/mo', key: 'sewer_per_5kgal', fmt: v => v ? '$' + v.toFixed(2) : '—', sub: 'monthly' },
-      { label: 'Stormwater fee', key: 'stormwater_fee', fmt: v => v != null ? '$' + v.toFixed(2) : '—', sub: 'where separately billed' },
-      { label: 'Rec / pool resident pass', key: 'rec_pass', fmt: v => v ? '$' + v : '—', sub: 'annual, resident rate' }
+      { label: 'Hudson municipal income tax', key: 'municipal_income_tax_pct', fmt: v => v != null ? v.toFixed(2) + '%' : '—', sub: 'flat rate on earned income' },
+      { label: 'Property tax · $500K home', key: 'effective_property_tax_per_500k', fmt: v => v ? '$' + formatNum(v) : 'TBC', sub: 'effective millage · annual' },
+      { label: 'Water · 5,000 gal/mo', key: 'water_per_5kgal', fmt: v => v ? '$' + v.toFixed(2) : 'TBC', sub: 'monthly' },
+      { label: 'Sewer · 5,000 gal/mo', key: 'sewer_per_5kgal', fmt: v => v ? '$' + v.toFixed(2) : 'TBC', sub: 'monthly' }
     ];
     metrics.forEach(m => {
       const card = document.createElement('div');
@@ -335,6 +338,37 @@
         <p class="cost-sub">${m.sub}</p>
       `;
       grid.appendChild(card);
+    });
+
+    // Income tax comparison strip
+    const cmpHost = document.createElement('div');
+    cmpHost.className = 'cost-cmp';
+    cmpHost.innerHTML = `
+      <h3 class="cost-cmp-title">Municipal income tax · benchmark</h3>
+      <p class="cost-cmp-sub">
+        Most Cleveland and Columbus suburbs sit at 2.0-2.5%. Cincinnati suburbs are markedly lower (1.0-1.25%).
+        Hudson is 2.0%. RITA can change rates without a vote in some cities — re-verify before quoting.
+      </p>
+      <div class="cost-bars" id="cost-bars"></div>
+    `;
+    grid.parentElement.appendChild(cmpHost);
+
+    const bars = cmpHost.querySelector('#cost-bars');
+    const withTax = DATA.cities
+      .filter(c => c.costs && c.costs.municipal_income_tax_pct != null)
+      .map(c => ({ name: c.name, region: c.region, tier: c.tier, key: c.key, pct: c.costs.municipal_income_tax_pct }))
+      .sort((a, b) => a.pct - b.pct);
+    const maxPct = Math.max(...withTax.map(x => x.pct));
+    withTax.forEach(c => {
+      const row = document.createElement('div');
+      row.className = 'cost-bar-row' + (c.tier === 'subject' ? ' subject' : '');
+      const width = Math.max(4, (c.pct / maxPct) * 100);
+      row.innerHTML = `
+        <span class="cost-bar-name">${escapeHtml(c.name)}<small> · ${escapeHtml(c.region || '')}</small></span>
+        <span class="cost-bar-track"><span class="cost-bar-fill" style="width:${width.toFixed(1)}%"></span></span>
+        <span class="cost-bar-val">${c.pct.toFixed(2)}%</span>
+      `;
+      bars.appendChild(row);
     });
   }
 
