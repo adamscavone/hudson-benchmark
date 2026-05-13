@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "region": "Cincinnati",
+    "collected": "2026-05-13",
+    "agent": "Cincinnati-area peers research",
+    "narrative_findings": [
+      "Mariemont was master-planned 1920s by Mary M. Emery / John Nolen; designated National Historic Landmark in 2007. 1929 Bell Tower carillon (49 bells) still plays summer concerts. Luminaria Festival each December. South 80: 75 ac, 7 mi trails along Little Miami.",
+      "Mason Community Center (150K+ sf) + Mason Municipal Aquatic Center: lazy river, three-story flume, zero-depth leisure pool, 25m/11-lane competition pool seating ~800. 8 dedicated pickleball courts at Heritage Oak. Pawmyra Dog Park (three areas). 330+ acres parks. Municipal water/sewer/stormwater/trash.",
+      "Cincinnati-region income tax: 1.0-1.25% (Montgomery 1.0, Madeira 1.0, Mariemont 1.25, Mason 1.12). Cleveland/Columbus suburbs are 2.0-2.5%. A real competitive tax advantage.",
+      "Surprising: Madeira mid-transition on water (GCWW + Indian Hill -> GCWW only, Nov 2025, ~20-25% lower rates, contested). Madeira pool is private (Swim & Tennis Club, residents only). Montgomery has no in-city library branch. Montgomery formally rejected lethal deer management in 2002. Mariemont fire/EMS is small/volunteer-heavy. Madeira & Indian Hill Joint Fire District (1985) is one of Ohio's earliest joint fire districts. None of the four cities run municipal electric or fiber (all Duke Energy)."
+    ]
+  },
+  "montgomery": {
+    "utilities": {
+      "electric_is_municipal": false,
+      "electric_provider": "Duke Energy",
+      "gas_provider": "Duke Energy",
+      "fiber_is_municipal": false,
+      "water": "Greater Cincinnati Water Works",
+      "sewer": "MSD of Greater Cincinnati",
+      "stormwater_fee": null,
+      "ev_chargers": "Not municipally operated; not mentioned on city site"
+    },
+    "civic": {
+      "library": "Served by Blue Ash and Symmes Township branches of CHPL; no in-city branch",
+      "library_system": "Cincinnati & Hamilton County Public Library",
+      "library_url": "https://chpl.org/",
+      "has_rec_center": false,
+      "rec_center_name": null,
+      "senior_center": "No dedicated senior center; programming via Parks & Rec",
+      "ice_rink": "No"
+    },
+    "amenities": {
+      "parks_pools": "Eight parks + nature preserve (96+ ac): Swaim 12.7 ac, Pioneer 21.1 ac, Dulle, Montgomery, Weller. Municipal outdoor pool with wading pool, water slide, diving board.",
+      "trails": "~30+ mi of connecting sidewalks and paved loop trails through park system.",
+      "pickleball": "Tennis/basketball courts at Swaim Park; no dedicated municipal pickleball.",
+      "dog_parks": "No municipal dog park identified.",
+      "library": "Served by Blue Ash + Symmes Township CHPL branches; no in-city library.",
+      "community_center": "No municipal community center; Terwilliger Lodge is a rental venue.",
+      "senior_center": "No dedicated senior center; programs via Parks & Rec.",
+      "ice_rink": "None municipal.",
+      "public_art": "Beautification & Tree Commission; no formal public art program.",
+      "farmers_market": "No dedicated municipal farmers market; downtown DORA + food tours instead.",
+      "concert_series": "BAMSO Independence Day Concert at Montgomery Park; live music at Bastille Day.",
+      "holiday_lighting": "Holiday events in historic downtown.",
+      "deer_management": "2002 Council adopted non-lethal/education policy; controlled hunts deemed unsafe due to density. Limited bow hunting at Gate of Heaven Cemetery only.",
+      "tree_program": "Beautification & Tree Commission active; Tree City USA status not confirmed on city site.",
+      "ev_chargers": "Not advertised on city site.",
+      "downtown": "Historic core along Montgomery & Cooper Roads; DORA designated; signature Bastille Day festival anchors the district."
+    },
+    "schools": { "district": "Sycamore Community Schools", "note": "Shared district with Blue Ash, Symmes Twp, parts of Sycamore Twp; Montgomery Elementary in city" },
+    "costs": { "municipal_income_tax_pct": 1.0, "tax_credit_other_muni_pct": 1.0 },
+    "sources": [
+      { "label": "Montgomery Tax Office", "url": "https://www.montgomeryohio.gov/departments/tax-office/" },
+      { "label": "Montgomery Community Pool", "url": "https://www.montgomeryohio.gov/departments/community-pool/" },
+      { "label": "Montgomery Parks", "url": "https://www.montgomeryohio.gov/montgomery-parks/" },
+      { "label": "Deer/coyote policy", "url": "https://www.montgomeryohio.gov/question/what-if-i-see-a-coyote-or-deer-in-or-near-my-yard/" },
+      { "label": "Events", "url": "https://www.montgomeryohio.gov/events/" }
+    ]
+  },
+  "madeira": {
+    "utilities": {
+      "electric_is_municipal": false,
+      "electric_provider": "Duke Energy",
+      "fiber_is_municipal": false,
+      "water": "Transitioning Nov 2025: dual GCWW/Indian Hill Water Works → GCWW-only over ~2 years (Ord. 25-12)",
+      "sewer": "MSD of Greater Cincinnati",
+      "stormwater_fee": null,
+      "ev_chargers": "Not advertised on city site"
+    },
+    "civic": {
+      "library": "Madeira Branch · CHPL — renovated July 2020",
+      "library_url": "https://chpl.org/locations/ma/",
+      "has_rec_center": false,
+      "rec_center_name": "McDonald Commons Community Room (rentable)",
+      "senior_center": "No dedicated senior center identified",
+      "ice_rink": "No"
+    },
+    "amenities": {
+      "parks_pools": "Three parks led by McDonald Commons (flagship, $13.5M 2023-24 renovation); Sellman Park (10 ac, 2 lighted tennis); Hosbrook Bird Sanctuary (2 ac). Pool model is PRIVATE — Madeira Swim & Tennis Club (residents only).",
+      "trails": "Walking paths in parks; no dedicated multi-mile paved trail.",
+      "pickleball": "2 dedicated pickleball courts at McDonald Commons.",
+      "dog_parks": "No municipal dog park.",
+      "library": "Madeira Branch CHPL (7200 Miami Ave); renovated 2020.",
+      "community_center": "No full rec center; McDonald Commons Community Room reservable.",
+      "senior_center": "No dedicated senior center.",
+      "ice_rink": "None.",
+      "public_art": "Veterans Memorial at McDonald Commons.",
+      "farmers_market": "No dedicated municipal farmers market.",
+      "concert_series": "Street Dance (August); no formal weekly concert series.",
+      "holiday_lighting": "Light-Up Madeira (Chamber-coordinated tree-lighting/Christmas kickoff).",
+      "deer_management": "No municipal program (private pest-control vendors).",
+      "tree_program": "Tree City USA not confirmed.",
+      "ev_chargers": "Not advertised.",
+      "downtown": "Walkable Miami Avenue core anchored by McDonald Commons; Memorial Day march + July 4th parade."
+    },
+    "schools": { "district": "Madeira City Schools", "note": "3 buildings; one of only ~8 Ohio districts to earn 5 stars across all five report-card categories" },
+    "costs": { "municipal_income_tax_pct": 1.0, "tax_credit_other_muni_pct": 0.6, "sycamore_jedz_pct": 0.75 },
+    "sources": [
+      { "label": "Madeira Parks", "url": "https://www.madeiracity.com/government/departments/parks/index.php" },
+      { "label": "Recreation & Events", "url": "https://www.madeiracity.com/government/departments/recreation_and_events/index.php" },
+      { "label": "Water Provider Transition", "url": "https://www.madeiracity.com/how_do_i_/learn_about/water_provider_transition/index.php" },
+      { "label": "Madeira Tax", "url": "https://www.madeiracity.com/government/departments/tax/index.php" },
+      { "label": "Madeira & Indian Hill Joint Fire District", "url": "https://mihjfd.org/" },
+      { "label": "Madeira Swim & Tennis Club", "url": "https://madeiraswimandtennisclub.com/45243/" }
+    ]
+  },
+  "mariemont": {
+    "utilities": {
+      "electric_is_municipal": false,
+      "electric_provider": "Duke Energy",
+      "fiber_is_municipal": false,
+      "water": "Greater Cincinnati Water Works",
+      "sewer": "MSD of Greater Cincinnati",
+      "trash": "Rumpke (contract; billed on GCWW bill)",
+      "stormwater_fee": null,
+      "ev_chargers": "Not advertised"
+    },
+    "civic": {
+      "library": "Mariemont Branch · CHPL — recently completed ~$2M renovation",
+      "library_url": "https://chpl.org/locations/mm/",
+      "has_rec_center": false,
+      "rec_center_name": "Mariemont Racquet Club (village amenity); Boathouse on Little Miami",
+      "senior_center": "No dedicated senior center identified",
+      "ice_rink": "No"
+    },
+    "amenities": {
+      "parks_pools": "15+ parks (50+ ac): Dogwood, Ann Buntin Becker, Bell Tower, Concourse, Mary Emery, Dale, South 80. Municipal pool at 6000 Mariemont Ave (three pools — main, lap, baby).",
+      "trails": "South 80: 75+ acres along Little Miami River with ~7 miles of mixed-surface trails, plus community gardens and a campsite.",
+      "pickleball": "Mariemont Racquet Club has tennis; dedicated municipal pickleball not advertised.",
+      "dog_parks": "No municipal dog park.",
+      "library": "Mariemont Branch CHPL, recently renovated (~$2M).",
+      "community_center": "No traditional community center; Racquet Club + Boathouse serve rec functions.",
+      "senior_center": "No dedicated senior center.",
+      "ice_rink": "None.",
+      "public_art": "Mary M. Emery Memorial Carillon (49-bell, 1929 Bell Tower) is the signature cultural asset. Dale Park statuary. Mariemont Preservation Foundation curates historic landscape.",
+      "farmers_market": "Mariemont Farmers Market — Sundays 9:30am-1pm, May-October, at Elementary School lot.",
+      "concert_series": "Sunday-evening summer Bell Tower Carillon concerts at Dogwood Park (Memorial Day → Labor Day).",
+      "holiday_lighting": "Luminaria Festival in early December — village-wide luminaries plus Old Town Square celebration.",
+      "deer_management": "No municipal program detailed.",
+      "tree_program": "Tree City USA not confirmed (village known for tree-lined streets per 1920s plan).",
+      "ev_chargers": "Not advertised.",
+      "downtown": "Mariemont Square — master-planned 1920s Tudor-Revival village center with shops, Mariemont Inn, historic Mariemont Theatre. National Historic Landmark (designated 2007)."
+    },
+    "schools": { "district": "Mariemont City Schools", "note": "Small district; pool membership tied to MCSD residency" },
+    "costs": { "municipal_income_tax_pct": 1.25 },
+    "sources": [
+      { "label": "Mariemont Tax", "url": "https://mariemont.org/departments/tax-office/" },
+      { "label": "Village Parks", "url": "https://mariemont.org/lifestyle/village-parks/" },
+      { "label": "Swimming Pool", "url": "https://mariemont.org/lifestyle/swimming/" },
+      { "label": "South 80 Trails", "url": "https://mariemont.org/lifestyle/south-80-trails-and-community-gardens/" },
+      { "label": "Mary M. Emery Memorial Carillon", "url": "https://mariemont.org/lifestyle/living-here/the-mary-m-emery-memorial-carillon/" },
+      { "label": "History (NHL 2007)", "url": "https://mariemont.org/lifestyle/history-of-the-village-of-mariemont/" },
+      { "label": "Farmers Market", "url": "http://www.mariemont.com/mariemont-farmers-market/" }
+    ]
+  },
+  "mason": {
+    "utilities": {
+      "electric_is_municipal": false,
+      "electric_provider": "Duke Energy",
+      "fiber_is_municipal": false,
+      "water": "City of Mason (municipal)",
+      "sewer": "City of Mason (Water Reclamation Plant)",
+      "stormwater_fee": "Yes — municipal stormwater utility",
+      "trash": "City of Mason (municipal)",
+      "ev_chargers": "Not detailed"
+    },
+    "civic": {
+      "library": "Mason Public Library (independent municipal)",
+      "library_url": "https://www.masonpl.org/",
+      "has_rec_center": true,
+      "rec_center_name": "Mason Community Center (150,000+ sf) + attached Municipal Aquatic Center",
+      "senior_center": "Senior programming via Community Center + library (55+ via GetSetUp); no stand-alone senior facility",
+      "ice_rink": "No municipal rink identified"
+    },
+    "amenities": {
+      "parks_pools": "330+ ac across 8+ parks (Corwin M. Nixon, Heritage Oak/Sundin Fields, Mason Sports Park, Pine Hill Lakes, Makino, Quinn, Meadows, Hosea Woods). Indoor aquatics at Community Center; Municipal Aquatic Center with leisure pool (zero-depth, geysers, tot-slide), lazy river/whirlpool, three-story flume, 25m x 25yd / 11-lane competition pool seating ~800.",
+      "trails": "Connects to Little Miami Scenic Trail via on-street/park paths; paved mileage not centrally published.",
+      "pickleball": "8 dedicated pickleball courts at Heritage Oak Park; 3 additional tennis courts lined for pickleball.",
+      "dog_parks": "Pawmyra Dog Park at Mason Sports Park (three areas by size).",
+      "library": "Independent Mason Public Library; strong digital offering.",
+      "community_center": "Mason Community Center — full-service municipal rec center with attached aquatic center.",
+      "senior_center": "Senior programming via Community Center + library partnerships.",
+      "ice_rink": "None identified.",
+      "public_art": "Not specifically highlighted on city site.",
+      "farmers_market": "Mason Market on the Mile — Saturdays 10am-1pm Downtown Plaza (May-Aug).",
+      "concert_series": "Music in Mason — 9 Friday-evening concerts on Downtown Plaza (6pm) with food trucks.",
+      "holiday_lighting": "Not detailed on city site.",
+      "deer_management": "Not detailed.",
+      "tree_program": "Not confirmed.",
+      "ev_chargers": "Not detailed.",
+      "downtown": "Downtown Plaza serves as civic gathering space for farmers market + Music in Mason; mostly suburban character outside plaza."
+    },
+    "schools": { "district": "Mason City Schools", "note": "Large, highly rated suburban district; Mason + parts of Deerfield Twp" },
+    "costs": { "municipal_income_tax_pct": 1.12, "tax_cap_note": "Cannot exceed 1.15% without voter approval" },
+    "sources": [
+      { "label": "Mason Utilities", "url": "https://www.imaginemason.org/services/utilities/" },
+      { "label": "Mason Tax", "url": "https://www.imaginemason.org/services/tax-information/" },
+      { "label": "Mason Community Center", "url": "https://www.imaginemason.org/things-to-do/community-center/about-the-center/" },
+      { "label": "Mason Aquatic Facilities", "url": "https://www.imaginemason.org/things-to-do/community-center/about-the-center/aquatics-facilities/" },
+      { "label": "Mason Parks", "url": "https://www.imaginemason.org/things-to-do/parks/" },
+      { "label": "Music in Mason / Market on the Mile", "url": "https://www.imaginemason.org/things-to-do/music-in-mason-2026/" },
+      { "label": "Mason Public Library", "url": "https://www.masonpl.org/" }
+    ]
+  }
+}

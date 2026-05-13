@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Local working files
+*.log
+*.tmp
+.cache/
+
+# Node (if any tooling is added later)
+node_modules/
+
+# Python (collection scripts, if any)
+__pycache__/
+*.pyc
+.venv/

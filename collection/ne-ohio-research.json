@@ -1,0 +1,262 @@
+{
+  "_meta": {
+    "region": "NE Ohio",
+    "collected": "2026-05-13",
+    "agent": "NE Ohio peers research",
+    "narrative_findings": [
+      "Brecksville Jack A. Hruby Natatorium ($10M 2021 expansion): indoor activity pool with zero-depth + two enclosed waterslides + whirlpool + play structure; 6-lane 25-yard competition pool; OUTDOOR pool has rock-climbing wall + ZIPLINE + dump bucket + multi-level play. Aspirational benchmark for the region.",
+      "Solon Community Center: indoor+outdoor pool with lazy river/zero-entry/waterslides, rock climbing wall, jogging track, attached Solon Senior Center (free for residents). Solon is the natural primary peer comparator.",
+      "Aurora has 1,800+ ACRES of parkland across 13+ named parks (huge for an 18K city). Tree City USA since 1992. Aurora Recreation Community Center (ARCC) with 24/7 fitness, dog park, Sunny Lake.",
+      "Rocky River has its own Hamilton Ice Arena (city-owned) — distinctive among peers. Plus indoor pool, 12 pickleball courts at Tri City Park, independent Rocky River Public Library.",
+      "Chagrin Falls operates its OWN MUNICIPAL WATER utility for 100+ years (rare for a village of 4K). New Year's Giant Popcorn Ball Drop. Blossom Time Festival since 1930s. Popcorn Shop since 1875.",
+      "Bay Village: brand-new 2022 CCPL branch with Lake Erie ROOFTOP TERRACE; 1882 Community House (campus model — no central rec); Dwyer Memorial Senior Center; BAYarts cultural campus (nonprofit). $9/quarter stormwater fee.",
+      "Medina has 800 acres city parkland + 16+ mi trails, Medina Recreation Center with aquatics, two farmers markets, Candlelight Walk and Ice Festival on the historic Public Square.",
+      "Ravenna confirms contrast: modest Ravenna Athletic Center (~7,500 sf), Reed Memorial Library (independent, est. 1921), Balloon A-Fair festival each September.",
+      "Caveat: income tax rates flagged for re-verification via RITA tax table — Chagrin Falls in particular may be higher than 1.85% (historical was 1.5%, may have increased)."
+    ]
+  },
+  "solon": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)", "fiber_is_municipal": false, "water": "Cleveland Water", "sewer": "City of Solon municipal sanitary sewer", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Solon Branch · Cuyahoga County Public Library", "library_url": "https://cuyahogalibrary.org/branches/solon", "has_rec_center": true, "rec_center_name": "Solon Community Center", "rec_center_url": "https://www.solonohio.gov/735/Aquatics", "rec_center_features": "Indoor + outdoor pool complex with lazy river, zero-entry, waterslides; rock climbing wall; gym; jogging track; aerobics studio; free-weight room; hot tub", "senior_center": "Solon Senior Center (attached to Community Center; free for residents)", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "Solon Community Center indoor+outdoor pool complex with lazy river and waterslides plus Community Park.",
+      "trails": "Walking paths through park system and along the Community Center campus.",
+      "pickleball": "Available through Recreation programming; specific court count not published.",
+      "dog_parks": "Not prominently published on city site.",
+      "library": "Solon Branch of Cuyahoga County Public Library — a top branch in a top-rated CCPL system.",
+      "community_center": "Solon Community Center is a true full-service rec center: climbing wall, indoor + outdoor pool, gym, track.",
+      "senior_center": "Dedicated Solon Senior Center attached to the Community Center; free for residents.",
+      "ice_rink": "No municipal ice rink.",
+      "public_art": "Solon Center for the Arts (city department) offers gallery exhibits, classes, theater & music.",
+      "farmers_market": "Solon Farmers Market — Wednesdays 4-7pm at Bicentennial Park during the season.",
+      "concert_series": "Summer concert programming through Solon Center for the Arts/Parks & Rec.",
+      "holiday_lighting": "Annual community events on city calendar.",
+      "deer_management": "Formal Solon Deer Management Plan published on city site.",
+      "tree_program": "Tree City USA status not specifically confirmed on city site.",
+      "ev_chargers": "Not published on city site.",
+      "downtown": "No traditional walkable downtown; commercial spine along SOM Center and Aurora roads."
+    },
+    "schools": { "district": "Solon City Schools", "note": "Routinely top-ranked district in Ohio" },
+    "costs": { "municipal_income_tax_pct": 2.0 },
+    "sources": [
+      { "label": "Solon Community Center / Aquatics", "url": "https://www.solonohio.gov/735/Aquatics" },
+      { "label": "Solon Senior Center", "url": "https://www.solonohio.gov/255/Active-Adults-Senior-Services" },
+      { "label": "Solon Deer Management", "url": "https://www.solonohio.gov/339/Deer-Management" },
+      { "label": "Solon Farmers Market", "url": "https://www.solonohio.gov/1432/Farmers-Market-2026" },
+      { "label": "Solon Income Tax", "url": "https://www.solonohio.gov/250/Income-Tax" }
+    ]
+  },
+  "aurora": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Ohio Edison (FirstEnergy)", "fiber_is_municipal": false, "water": "City of Aurora municipal water", "sewer": "City of Aurora municipal sewer", "ev_chargers": null, "stormwater_fee": "Storm drain charge bundled in utility rate" },
+    "civic": { "library": "Aurora Memorial Library · Portage County District Library", "library_url": "https://www.portagelibrary.org/", "has_rec_center": true, "rec_center_name": "Aurora Recreation Community Center (ARCC)", "rec_center_url": "https://www.auroraparksandrec.org/", "rec_center_features": "24/7 fitness center, group fitness, gym, activity rooms, leagues; separate seasonal Aurora Aquatic Center", "senior_center": "Senior programming via Parks & Rec; no stand-alone facility", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "Aurora Aquatic Center (seasonal outdoor); 1,800+ acres of park/greenspace across 13+ named parks.",
+      "trails": "Sunny Lake's 1.75-mile paved loop plus multiple branching hiking trails through park system.",
+      "pickleball": "Available through ARCC programming.",
+      "dog_parks": "Dedicated dog park within park system.",
+      "library": "Aurora Memorial Library is the Aurora branch of Portage County District Library.",
+      "community_center": "Aurora Recreation Community Center (ARCC) — fitness center, leagues, gym, activity rooms.",
+      "senior_center": "Senior programming via Parks & Rec rather than a dedicated facility.",
+      "ice_rink": "None.",
+      "public_art": "Moebius Nature Center; community garden.",
+      "farmers_market": "Aurora Farmers Market operates seasonally.",
+      "concert_series": "Summer programming via Parks & Rec community events.",
+      "holiday_lighting": "Tree lighting and seasonal events on city calendar.",
+      "deer_management": "Annual deer hunting permit lottery administered by Aurora Police.",
+      "tree_program": "Tree City USA since 1992; Street Tree Program nationally recognized by National Arbor Day Foundation.",
+      "ev_chargers": "Not published on city site.",
+      "downtown": "No traditional walkable downtown; commercial nodes along Rt 43/Chillicothe."
+    },
+    "schools": { "district": "Aurora City Schools", "note": "Highly rated suburban district" },
+    "costs": { "municipal_income_tax_pct": 2.0 },
+    "sources": [
+      { "label": "Aurora Parks & Rec", "url": "https://www.auroraoh.com/departments/parks___recreation/index.php" },
+      { "label": "ARCC", "url": "https://www.auroraparksandrec.org/" },
+      { "label": "Aurora Tree Management", "url": "https://www.auroraoh.com/departments/parks___recreation/parks/tree_management.php" },
+      { "label": "Aurora Income Tax", "url": "https://www.auroraoh.com/departments/finance/taxes/income_taxes.php" }
+    ]
+  },
+  "bay-village": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)", "fiber_is_municipal": false, "water": "Cleveland Water", "sewer": "City of Bay Village", "ev_chargers": null, "stormwater_fee": "$9 per quarter ($36/year)" },
+    "civic": { "library": "Bay Village Branch · CCPL (rebuilt 2022, 17,000 sf, rooftop terrace overlooking Lake Erie, Innovation Center)", "library_url": "https://cuyahogalibrary.org/branches/bay-village", "has_rec_center": false, "rec_center_name": "Campus model — Community House (1882) + Community Gym + Aquatic Center + school gyms", "senior_center": "Dwyer Memorial Senior Center (M-F 8:30-4:30)", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "Seasonal outdoor Aquatic Center; multiple lakeside parks; no indoor pool.",
+      "trails": "West Interurban Connector Trail and Interurban Pedestrian Bridge connect to Lake Erie.",
+      "pickleball": "Adult pickleball programming through Rec Department.",
+      "dog_parks": "Not listed on city Parks & Rec site.",
+      "library": "Brand-new (2022) CCPL Bay Village Branch with Lake Erie rooftop terrace — architecturally distinctive.",
+      "community_center": "Campus model: 1882 Community House + Community Gym + Aquatic Center + school gyms.",
+      "senior_center": "Dedicated Dwyer Memorial Senior Center.",
+      "ice_rink": "None.",
+      "public_art": "BAYarts cultural campus (independent nonprofit) hosts gallery, classes, and farmers market.",
+      "farmers_market": "BAYarts Farmers Market (seasonal, at BAYarts campus).",
+      "concert_series": "Summer programming through Rec and BAYarts.",
+      "holiday_lighting": "Bay Days 4-day carnival with fireworks (Kiwanis-run).",
+      "deer_management": "Formal deer management program on city site.",
+      "tree_program": "Tree City USA status not confirmed on city site.",
+      "ev_chargers": "Not published.",
+      "downtown": "Small Dover Center / Wolf Road commercial node; no traditional walkable downtown."
+    },
+    "schools": { "district": "Bay Village City Schools", "note": "Highly regarded small district" },
+    "costs": { "municipal_income_tax_pct": 1.5, "stormwater_fee": 36 },
+    "sources": [
+      { "label": "Bay Village Parks & Rec", "url": "https://www.cityofbayvillage.gov/185/Parks-Recreation" },
+      { "label": "Bay Village Income Tax", "url": "https://www.cityofbayvillage.gov/233/Municipal-Income-Tax" },
+      { "label": "Bay Village Sewer/Stormwater", "url": "https://www.cityofbayvillage.gov/531/City-Sewer-Rate-Increase" },
+      { "label": "Bay Village Deer Management", "url": "https://www.cityofbayvillage.com/388/Deer-Management" },
+      { "label": "CCPL Bay Village Branch", "url": "https://cuyahogalibrary.org/branches/bay-village" }
+    ]
+  },
+  "rocky-river": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)", "fiber_is_municipal": false, "water": "Cleveland Water", "sewer": "Rocky River Division of Sewer Billing (city-managed)", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Rocky River Public Library — INDEPENDENT municipal library", "library_url": "http://www.rrpl.org/", "has_rec_center": true, "rec_center_name": "Rocky River Recreation Center", "rec_center_url": "https://www.rockyriverohio.gov/rec", "rec_center_features": "Indoor pool, seasonal outdoor pool, gym/fitness, classes; campus shared with Hamilton Ice Arena", "senior_center": "Rocky River Senior Center (free to join; M-F 8:30-4:30)", "ice_rink": "Hamilton Ice Arena (city-owned)" },
+    "amenities": {
+      "parks_pools": "Indoor pool + seasonal outdoor municipal pool; 10 named parks including lakefront Rocky River Park and Bradstreet's Landing.",
+      "trails": "Adjacent to Cleveland Metroparks Rocky River Reservation; sledding hills at Morley and Rocky River parks.",
+      "pickleball": "12 pickleball courts at Tri City Park plus courts at Linden Park.",
+      "dog_parks": "Not listed in city parks page.",
+      "library": "Independent Rocky River Public Library — its own taxing district, not part of CCPL.",
+      "community_center": "Full Recreation Center on municipal campus including indoor pool.",
+      "senior_center": "Dedicated Rocky River Senior Center — free to join.",
+      "ice_rink": "Hamilton Ice Arena (city-owned, on City Hall Park campus) — distinctive among peers.",
+      "public_art": "Limited published.",
+      "farmers_market": "Not prominently published on city site.",
+      "concert_series": "Summer Concert Series via Rec Department.",
+      "holiday_lighting": "Annual community events.",
+      "deer_management": "Not prominently published.",
+      "tree_program": "Status not confirmed.",
+      "ev_chargers": "Not published.",
+      "downtown": "Beachcliff / Old Detroit commercial district — boutique shops, cafes, dining."
+    },
+    "schools": { "district": "Rocky River City Schools", "note": "Strong westside lakefront district" },
+    "costs": { "municipal_income_tax_pct": 2.0 },
+    "sources": [
+      { "label": "Rocky River Recreation", "url": "https://www.rockyriverohio.gov/rec" },
+      { "label": "Hamilton Ice Arena", "url": "https://www.rockyriverohio.gov/rink" },
+      { "label": "Rocky River Parks", "url": "https://www.rockyriverohio.gov/city-parks" },
+      { "label": "Rocky River Public Library", "url": "http://www.rrpl.org/" }
+    ]
+  },
+  "chagrin-falls": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)", "fiber_is_municipal": false, "water": "Village of Chagrin Falls — operates its OWN water utility (100+ years)", "sewer": "Village of Chagrin Falls municipal sewer", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Chagrin Falls Branch · Cuyahoga County Public Library", "library_url": "https://cuyahogalibrary.org/branches/chagrin-falls", "has_rec_center": false, "rec_center_name": null, "senior_center": "No dedicated municipal facility", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "No municipal pool; recreation centered on village parks and Chagrin River.",
+      "trails": "Whitesburg Park walking trails along Chagrin River; Riverside Park.",
+      "pickleball": "Pickleball court at River Run Park (rare for a village this size).",
+      "dog_parks": "Dog park at River Run Park.",
+      "library": "Chagrin Falls Branch of CCPL in the historic downtown.",
+      "community_center": "None — relies on partner facilities and Village Hall meeting spaces.",
+      "senior_center": "No dedicated facility.",
+      "ice_rink": "None.",
+      "public_art": "Heavy arts presence via Valley Art Center and downtown galleries (independent nonprofits).",
+      "farmers_market": "Chagrin Falls Farmers Market (seasonal, Sundays at Triangle Park; long-running).",
+      "concert_series": "Summer concerts on the Triangle and at Riverside Park.",
+      "holiday_lighting": "Major holiday lighting on Main Street; New Year's Eve Giant Popcorn Ball Drop (signature).",
+      "deer_management": "Not prominently published.",
+      "tree_program": "Tree City USA not directly confirmed.",
+      "ev_chargers": "Not published.",
+      "downtown": "One of the most walkable, intact historic downtowns in NE Ohio — anchored by the falls, the Popcorn Shop (1875), and Main Street. Blossom Time Festival since 1930s."
+    },
+    "schools": { "district": "Chagrin Falls Exempted Village Schools", "note": "Top-rated small district" },
+    "costs": { "municipal_income_tax_pct": 1.85, "tax_caveat": "Re-verify via RITA — historical 1.5% may have increased" },
+    "sources": [
+      { "label": "Chagrin Falls Departments", "url": "https://www.chagrinfallsoh.gov/157/Departments" },
+      { "label": "Chagrin Falls Parks", "url": "https://www.chagrinfallsoh.gov/235/Parks" },
+      { "label": "Chagrin Falls Utility Billing", "url": "https://www.chagrinfallsoh.gov/221/Utility-Billing-Overview" },
+      { "label": "Chagrin Falls Holidays / Popcorn Ball Drop", "url": "https://www.chagrinfallsoh.gov/368/Holidays" }
+    ]
+  },
+  "medina": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Ohio Edison (FirstEnergy)", "fiber_is_municipal": false, "water": "City of Medina Water Department (municipal)", "sewer": "Medina County Sanitary Engineers (county-level)", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Medina Library · Medina County District Library (1907 Carnegie-era Franklin Sylvester gift)", "library_url": "https://www.mcdl.info/medina", "has_rec_center": true, "rec_center_name": "Medina Recreation Center (855 Weymouth Rd)", "rec_center_url": "https://medinaoh.org/medina-rec/", "rec_center_features": "Aquatics, fitness/wellness, youth and senior programming, hot tub, party rentals", "senior_center": "Programming via Rec Center", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "Memorial Pool (seasonal community pool) + 14 parks across 800 acres of city parkland.",
+      "trails": "16+ miles of biking and walking/multipurpose trails through park system.",
+      "pickleball": "Pickleball courts throughout the park system.",
+      "dog_parks": "Not specifically listed on Parks page.",
+      "library": "Medina Library is flagship of Medina County District Library; historic 1907 building.",
+      "community_center": "Medina Recreation Center on Weymouth Rd — full-service rec.",
+      "senior_center": "Senior programming via Rec Center.",
+      "ice_rink": "None.",
+      "public_art": "Historic Public Square with park, gazebo, Victorian architecture.",
+      "farmers_market": "Medina Square Farmers Market (Saturdays 9-1, May-Oct, 70+ vendors) + Farmers Market of Medina.",
+      "concert_series": "Free summer concerts on the Public Square.",
+      "holiday_lighting": "Candlelight Walk and Ice Festival are signature holiday events on the Square.",
+      "deer_management": "Not prominently published.",
+      "tree_program": "Status not confirmed.",
+      "ev_chargers": "Not published.",
+      "downtown": "Historic Public Square — late-19th-century Victorian core; among Ohio's most intact courthouse-square downtowns."
+    },
+    "schools": { "district": "Medina City Schools", "note": "Large county-seat district" },
+    "costs": { "municipal_income_tax_pct": 1.25 },
+    "sources": [
+      { "label": "Medina Rec Center", "url": "https://medinaoh.org/medina-rec/" },
+      { "label": "Medina Parks", "url": "https://medinaoh.org/city-hall/parks/" },
+      { "label": "Medina Water Department", "url": "https://medinaoh.org/city-services/water-department/establishing-water-service/" },
+      { "label": "Medina Income Tax", "url": "https://medinaoh.org/residents/tax-information/" },
+      { "label": "Medina Library", "url": "https://www.mcdl.info/medina" },
+      { "label": "Medina Square Farmers Market", "url": "https://www.mainstreetmedina.com/medina-square-farmers-market.html" }
+    ]
+  },
+  "ravenna": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Ohio Edison (FirstEnergy)", "fiber_is_municipal": false, "water": "City of Ravenna Water Treatment (municipal)", "sewer": "City of Ravenna Water Reclamation", "ev_chargers": null, "stormwater_fee": "Yes — city Stormwater Utility (rate not published)" },
+    "civic": { "library": "Reed Memorial Library (independent, est. 1921 via Judge Cornelius Reed $25K gift; 85K items; 300K circs/year)", "library_url": "https://www.reedlibrary.org/", "has_rec_center": true, "rec_center_name": "Ravenna Athletic Center (RAC, ~7,500 sf)", "rec_center_url": "https://www.ravennaoh.gov/departments/parks-recreation/", "rec_center_features": "Fitness machines, indoor track, free weights, cycling studio, group fitness room (notably smaller than peers)", "senior_center": null, "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "No municipal pool published; 3 named parks (Havre's Woods, John Tontimonia, Chestnut Hills).",
+      "trails": "Trailhead on hike-and-bike trail connecting Ravenna to Cuyahoga Valley National Park.",
+      "pickleball": "Not published.",
+      "dog_parks": "Not published.",
+      "library": "Independent Reed Memorial Library — historic and active community hub.",
+      "community_center": "Ravenna Athletic Center is modest (~7,500 sf) compared to peer rec centers.",
+      "senior_center": "No dedicated facility published.",
+      "ice_rink": "None.",
+      "public_art": "Limited published.",
+      "farmers_market": "Operates seasonally.",
+      "concert_series": "Programming under Events & Activities.",
+      "holiday_lighting": "Annual community events.",
+      "deer_management": "Not published.",
+      "tree_program": "Status not confirmed.",
+      "ev_chargers": "Not published.",
+      "downtown": "Walkable historic Main Street as Portage County seat — anchor for the Balloon A-Fair festival each September."
+    },
+    "schools": { "district": "Ravenna City Schools", "note": "Working-class county-seat district" },
+    "costs": { "municipal_income_tax_pct": 2.25 },
+    "sources": [
+      { "label": "Ravenna Departments", "url": "https://www.ravennaoh.gov/departments/" },
+      { "label": "Ravenna Parks & Rec", "url": "https://www.ravennaoh.gov/departments/parks-recreation/" },
+      { "label": "Reed Memorial Library", "url": "https://www.reedlibrary.org/" },
+      { "label": "Ravenna Balloon A-Fair", "url": "https://www.ravennaoh.gov/residents/events-activities/balloon-a-fair/" }
+    ]
+  },
+  "brecksville": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)", "fiber_is_municipal": false, "water": "Cleveland Water (regional)", "sewer": "Northeast Ohio Regional Sewer District", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Brecksville Branch · Cuyahoga County Public Library (across from Community Center)", "library_url": "https://cuyahogalibrary.org/branches/brecksville", "has_rec_center": true, "rec_center_name": "Brecksville Community Center w/ Jack A. Hruby Natatorium", "rec_center_url": "https://www.brecksville.oh.us/253/Aquatics", "rec_center_features": "$10M 2021 aquatics expansion: indoor activity pool (zero-depth, two enclosed waterslides, play structure, whirlpool), 6-lane 25-yard competition pool, outdoor pool with rock-climbing wall, zipline, dump bucket, multi-level play structure; Blossom Field House", "senior_center": "Programming via Community Center", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "Outstanding aquatics — Jack A. Hruby Natatorium (2021 $10M expansion) is the aspirational benchmark for the region.",
+      "trails": "Cleveland Metroparks Brecksville Reservation (3,026 acres — largest urban park in Ohio) abuts the city with 50+ miles of trails.",
+      "pickleball": "Available through Community Center.",
+      "dog_parks": "Not published.",
+      "library": "Brecksville Branch CCPL, across from Community Center.",
+      "community_center": "Brecksville Community Center is regional-class, headlined by Hruby Natatorium.",
+      "senior_center": "Senior programming via Community Center.",
+      "ice_rink": "None.",
+      "public_art": "Active Horticulture program for civic beautification.",
+      "farmers_market": "Regional markets nearby; no dedicated city-run market published.",
+      "concert_series": "Programming via Community Center.",
+      "holiday_lighting": "Seasonal events at Community Center.",
+      "deer_management": "Bow hunting permitted in city limits during state archery season via city permit.",
+      "tree_program": "Active Horticulture Department; Tree City USA not directly confirmed.",
+      "ev_chargers": "Not published.",
+      "downtown": "Brecksville Town Center (Rt 82/21 intersection) is the walkable village core, modest scale."
+    },
+    "schools": { "district": "Brecksville-Broadview Heights City Schools", "note": "Top-ranked district" },
+    "costs": { "municipal_income_tax_pct": 2.0 },
+    "sources": [
+      { "label": "Brecksville Aquatics / Hruby Natatorium", "url": "https://www.brecksville.oh.us/253/Aquatics" },
+      { "label": "Brecksville Recreation", "url": "https://www.brecksville.oh.us/252/Recreation" },
+      { "label": "Brecksville City Taxes", "url": "https://www.brecksville.oh.us/190/City-Taxes" },
+      { "label": "Brecksville Deer", "url": "https://www.brecksville.oh.us/359/Deer" }
+    ]
+  }
+}

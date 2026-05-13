@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Hudson, Ohio · Peer Benchmark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============================================================ -->
+  <!-- Password gate overlay                                          -->
+  <!-- ============================================================ -->
+  <div id="gate" class="gate" aria-hidden="false">
+    <div class="gate-card">
+      <p class="gate-mark">A Western Reserve Notebook</p>
+      <h1 class="gate-title">Hudson<span class="gate-dot">·</span>Peer Benchmark</h1>
+      <p class="gate-sub">Private working draft. Passphrase required.</p>
+      <form id="gate-form" autocomplete="off">
+        <input
+          type="password"
+          id="gate-input"
+          placeholder="passphrase"
+          autocomplete="new-password"
+          spellcheck="false"
+          autofocus
+        />
+        <button type="submit">Enter</button>
+      </form>
+      <p id="gate-error" class="gate-error" hidden>Not quite. Try again.</p>
+      <p class="gate-note">
+        This is a cosmetic gate, not real security — the underlying data is
+        in the page source. Adequate for keeping crawlers and casual visitors
+        out, not for actual secrets.
+      </p>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- Main document                                                  -->
+  <!-- ============================================================ -->
+  <main id="page" hidden>
+
+    <!-- Sticky lightweight nav -->
+    <nav class="nav">
+      <a href="#top" class="nav-brand">Hudson · Peer Benchmark</a>
+      <ul class="nav-links">
+        <li><a href="#cities">Cities</a></li>
+        <li><a href="#compare">Compare</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#costs">Costs</a></li>
+        <li><a href="#schools">Schools</a></li>
+        <li><a href="#methodology">Method</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="top">
+      <p class="kicker">A Personal-Curiosity Benchmark · Draft</p>
+      <h1 class="display">
+        How does <em>Hudson</em><br />actually compare?
+      </h1>
+      <p class="dek">
+        A look at the services and amenities of Hudson, Ohio against thirteen
+        wealth- and size-matched Ohio peer cities — from Solon and Bay Village
+        to Bexley, New Albany, Chagrin Falls, and beyond.
+      </p>
+      <figure class="hero-figure">
+        <div class="hero-fallback" aria-hidden="true">
+          <!-- Stylized Western Reserve / clock-tower silhouette as graceful fallback -->
+          <svg viewBox="0 0 1200 440" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="hg-sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#1a2230"/>
+                <stop offset="1" stop-color="#0f1419"/>
+              </linearGradient>
+              <linearGradient id="hg-glow" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0" stop-color="#d4a85a" stop-opacity="0.15"/>
+                <stop offset="1" stop-color="#d4a85a" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <rect width="1200" height="440" fill="url(#hg-sky)"/>
+            <rect width="1200" height="440" fill="url(#hg-glow)"/>
+            <!-- Stars / decorative dots -->
+            <g fill="#d4a85a" opacity="0.5">
+              <circle cx="180" cy="60" r="1"/>
+              <circle cx="340" cy="40" r="1.4"/>
+              <circle cx="520" cy="70" r="1"/>
+              <circle cx="780" cy="50" r="1.2"/>
+              <circle cx="960" cy="90" r="1"/>
+              <circle cx="1100" cy="35" r="1.2"/>
+            </g>
+            <!-- Trees on horizon -->
+            <g fill="#0a0d11" opacity="0.85">
+              <path d="M 0 380 L 30 320 L 60 360 L 90 300 L 130 360 L 170 310 L 210 365 L 260 290 L 320 360 L 380 320 L 440 360 L 500 300 L 560 360 L 620 320 L 680 365 L 740 300 L 800 360 L 860 320 L 920 360 L 980 290 L 1040 360 L 1100 320 L 1160 360 L 1200 320 L 1200 440 L 0 440 Z"/>
+            </g>
+            <!-- Clock tower silhouette, centered -->
+            <g transform="translate(560,180)" fill="#1a1f26" stroke="#d4a85a" stroke-width="1.5">
+              <!-- Base -->
+              <rect x="0" y="120" width="80" height="80"/>
+              <!-- Tower body -->
+              <rect x="20" y="40" width="40" height="120"/>
+              <!-- Clock face -->
+              <circle cx="40" cy="80" r="14" fill="#0f1419"/>
+              <line x1="40" y1="80" x2="40" y2="72" stroke="#d4a85a"/>
+              <line x1="40" y1="80" x2="46" y2="80" stroke="#d4a85a"/>
+              <!-- Roof -->
+              <path d="M 16 40 L 40 10 L 64 40 Z"/>
+              <!-- Spire -->
+              <line x1="40" y1="10" x2="40" y2="-8" stroke="#d4a85a" stroke-width="2"/>
+              <circle cx="40" cy="-12" r="2" fill="#d4a85a" stroke="none"/>
+            </g>
+            <!-- Foreground ground line -->
+            <line x1="0" y1="380" x2="1200" y2="380" stroke="#d4a85a" stroke-width="0.5" opacity="0.3"/>
+          </svg>
+        </div>
+        <img
+          src="assets/photos/hudson-hero.jpg"
+          alt="Hudson, Ohio — historic downtown clock tower"
+          loading="eager"
+          decoding="async"
+          id="hero-img"
+          onerror="this.style.display='none'; this.previousElementSibling.classList.add('active');"
+        />
+        <figcaption id="hero-caption" class="figcaption"></figcaption>
+      </figure>
+    </header>
+
+    <!-- Methodology -->
+    <section class="section" id="methodology">
+      <h2 class="section-title">How this benchmark works</h2>
+      <details class="method-details">
+        <summary>Read the methodology</summary>
+        <div class="method-body">
+          <p>
+            The subject is the City of Hudson, Ohio (Summit County). Peers
+            were selected on two axes: <strong>population</strong> (roughly
+            10,000-30,000) and <strong>median household income</strong>
+            (top-quartile in Ohio, generally above $120K). Demographics come
+            from <a href="https://www.census.gov/quickfacts/" target="_blank" rel="noopener">U.S. Census QuickFacts</a> and ACS 5-year tables.
+          </p>
+          <p>
+            The 13 peers are split into three tiers:
+          </p>
+          <ul>
+            <li>
+              <span class="tier-badge tier-a">Tier A</span>
+              <strong>Core peers</strong> — closest match on size and wealth.
+            </li>
+            <li>
+              <span class="tier-badge tier-b">Tier B</span>
+              <strong>Boutique comparators</strong> — smaller but culturally
+              similar (Chagrin Falls, Madeira, Mariemont).
+            </li>
+            <li>
+              <span class="tier-badge tier-c">Tier C</span>
+              <strong>Deliberate contrasts</strong> — Medina and Ravenna,
+              included to show what Hudson <em>isn't</em>.
+            </li>
+          </ul>
+          <p>
+            A few notable cities <strong>aren't peers</strong> but are cited
+            throughout as <em>aspirational exemplars</em> — too big to be in
+            the main set but illustrative of specific assets (Mason's
+            aquatics, Dublin's public art program, Brecksville's natatorium,
+            Upper Arlington's community center).
+          </p>
+          <p class="caveat">
+            <strong>Caveat — Rocky River.</strong> Rocky River is in Tier A
+            on geography and culture, but its median HH income (≈$94K) is
+            meaningfully below Hudson's (≈$171K). It's kept for west-side
+            Cuyahoga representation and flagged in its card.
+          </p>
+          <p class="caveat">
+            <strong>Caveat — Medina.</strong> Medina matches Hudson on
+            population (~26K) but not on income (~$77K median HH). It's
+            included as a Tier C "what wealthy Hudson takes for granted"
+            contrast, not as a wealth peer.
+          </p>
+        </div>
+      </details>
+    </section>
+
+    <!-- City grid -->
+    <section class="section" id="cities">
+      <h2 class="section-title">The Cities</h2>
+      <p class="section-sub">
+        Fourteen cards. Filter by tier or region; click a card to jump to
+        its row in the comparison table below.
+      </p>
+      <div class="filter-bar" id="city-filters">
+        <span class="filter-label">Tier</span>
+        <button data-filter-type="tier" data-filter="all" class="filter-btn active">All</button>
+        <button data-filter-type="tier" data-filter="subject" class="filter-btn">Hudson</button>
+        <button data-filter-type="tier" data-filter="A" class="filter-btn">A · Core</button>
+        <button data-filter-type="tier" data-filter="B" class="filter-btn">B · Boutique</button>
+        <button data-filter-type="tier" data-filter="C" class="filter-btn">C · Contrast</button>
+        <span class="filter-label filter-label-2">Region</span>
+        <button data-filter-type="region" data-filter="all" class="filter-btn active">All</button>
+        <button data-filter-type="region" data-filter="NE Ohio" class="filter-btn">NE Ohio</button>
+        <button data-filter-type="region" data-filter="Columbus" class="filter-btn">Columbus</button>
+        <button data-filter-type="region" data-filter="Cincinnati" class="filter-btn">Cincinnati</button>
+      </div>
+      <div class="city-grid" id="city-grid"></div>
+    </section>
+
+    <!-- Comparison table -->
+    <section class="section" id="compare">
+      <h2 class="section-title">At a Glance</h2>
+      <p class="section-sub">
+        Click a column header to sort. Hudson is highlighted.
+      </p>
+      <div class="table-wrap">
+        <table class="cmp-table" id="compare-table">
+          <thead>
+            <tr>
+              <th data-sort="name">City</th>
+              <th data-sort="tier">Tier</th>
+              <th data-sort="region">Region</th>
+              <th data-sort="population" class="num">Pop.</th>
+              <th data-sort="median_hh_income" class="num">Median HH</th>
+              <th data-sort="muni_electric">Muni Elec</th>
+              <th data-sort="muni_fiber">Muni Fiber</th>
+              <th data-sort="rec_center">Rec Center</th>
+              <th data-sort="signature">Signature Amenity</th>
+            </tr>
+          </thead>
+          <tbody id="compare-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Amenity gallery -->
+    <section class="section" id="amenities">
+      <h2 class="section-title">Amenities, Category by Category</h2>
+      <p class="section-sub">
+        The discovery section. The interesting differences between wealthy
+        Ohio suburbs are usually here — in the "quiet convenience
+        infrastructure," not the headline budget.
+      </p>
+      <div id="amenity-categories"></div>
+    </section>
+
+    <!-- Hudson distinctives -->
+    <section class="section distinctives" id="distinctives">
+      <h2 class="section-title">
+        <span class="title-accent">What Hudson has</span> that most don't
+      </h2>
+      <div id="distinctives-grid"></div>
+    </section>
+
+    <!-- Aspirational exemplars -->
+    <section class="section" id="aspirational">
+      <h2 class="section-title">Punching-Above-Their-Weight Exemplars</h2>
+      <p class="section-sub">
+        Not peers — too big, or too rich, or both. Cited here because they
+        show what a high-service Ohio suburb can look like at the extremes.
+      </p>
+      <div id="aspirational-grid"></div>
+    </section>
+
+    <!-- Costs -->
+    <section class="section" id="costs">
+      <h2 class="section-title">What You Pay</h2>
+      <p class="section-sub">
+        Light touch — this is a curiosity piece, not a levy fight. Property
+        tax is shown as a modeled bill on a $500K home using effective
+        millage, which is the only fair way to compare across counties.
+      </p>
+      <div class="cost-grid" id="cost-grid"></div>
+    </section>
+
+    <!-- Schools -->
+    <section class="section" id="schools">
+      <h2 class="section-title">Schools, Briefly</h2>
+      <p class="section-sub">
+        Districts are separate legal entities from the cities, but they're
+        central to wealthy-suburb identity. Per-city district one-liners
+        below.
+      </p>
+      <div id="schools-content"></div>
+    </section>
+
+    <!-- Sources footer -->
+    <footer class="section sources-footer" id="sources">
+      <h2 class="section-title">Sources &amp; Credits</h2>
+      <p class="section-sub">
+        Every data point in the cards above traces back to a public source.
+        Image credits and license terms below.
+      </p>
+      <div id="sources-content"></div>
+      <p class="colophon">
+        Compiled <span id="compiled-date">—</span>. Built with care; not
+        infallible. If you spot a wrong number, that's because I read a
+        2022 PDF when a 2024 one was available somewhere else.
+      </p>
+    </footer>
+
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+{
+  "_meta": {
+    "region": "Columbus",
+    "collected": "2026-05-13",
+    "agent": "Columbus-area peers research",
+    "narrative_findings": [
+      "New Albany 16-court tournament-grade pickleball complex (7300 Walnut, opened 2023, free public, dawn-dusk). Plus 185,890 sf Fieldhouse & Community Center opening 2026.",
+      "New Albany trail mileage: 'over 50 miles' on official sources. The 80+ figure circulates in real-estate marketing but is NOT confirmed on city/parks sites.",
+      "Dublin Art in Public Places is the gold standard: est. 1988, 60+ works, 2021 Master Plan, funded by 6% hotel tax. Dublin Arts Council partnership.",
+      "DUBLIN HAS MUNICIPAL FIBER: DubLink 100 Gbps + 'Fiber to Every Home' substantially complete in 2026. Hudson Velocity is NOT unique in this benchmark.",
+      "Worthington Farmers Market is CONFIRMED year-round: outdoor summers in Old Worthington, indoor Nov-Apr at Shops at Worthington Place, est. 1987.",
+      "Worthington has FORMAL deer management with USDA federal sharpshooters Jan-Feb 2026.",
+      "Worthington's Griswold Center is a dedicated 55+ facility separate from the main Community Center.",
+      "Bexley Jeffrey Park / Jeffrey Mansion = 34 acres gifted by Jeffrey family in 1941; houses Recreation & Parks Dept, David H. Madison Community Pool, Bexley Historical Society.",
+      "Bexley Public Library is INDEPENDENT (separate from CML).",
+      "Bexley trash: alley pickup for alley properties (effectively rear-access for older grid).",
+      "Upper Arlington's Bob Crane Community Center: 165,000 sf, 5 floors, indoor pool, two gyms, walking track, art gallery, e-sports room, cafe. Top OPRA awards.",
+      "Upper Arlington Public Library is INDEPENDENT — established 1967 by Ohio HB 494.",
+      "UA Labor Day Arts Festival since 1966, 15K+ visitors, fireworks at Northam Park.",
+      "Powell: ~125 park acres / 10 parks. ~30 miles bike trails. Village Green hosts Powell Festival with fireworks. No municipal rec center. Del-Co Water + Delaware County Regional Sewer District. Delaware County District Library. Olentangy Local Schools."
+    ],
+    "caveats": [
+      "Water/sewer per-5kgal rates: not captured (would require pulling each city's published rate ordinance).",
+      "Stormwater fees: not surfaced; most levy one but rates not published on homepage scans.",
+      "Powell stormwater/EV: WebFetch blocked (HTTP 403); marked null where unconfirmed."
+    ]
+  },
+  "powell": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "AEP Ohio", "fiber_is_municipal": false, "water": "Del-Co Water Company", "sewer": "Delaware County Regional Sewer District", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Delaware County District Library", "library_url": "https://www.delawarelibrary.org/", "has_rec_center": false, "rec_center_name": null, "senior_center": "Programs only", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "10 parks (~125 ac) including Village Green and Adventure Park; no municipal pool (relies on private/HOA).",
+      "trails": "Nearly 30 miles of paved bike/multi-use trails connecting parks and neighborhoods.",
+      "pickleball": "Courts at city parks; no dedicated complex.",
+      "dog_parks": "Not a flagship; off-leash via county/township options.",
+      "library": "Served by Delaware County District Library (independent county system).",
+      "community_center": "No municipal community/recreation center.",
+      "senior_center": "Programs only; no standalone senior facility.",
+      "ice_rink": "No municipal ice rink.",
+      "public_art": "Ad hoc; no formal program.",
+      "farmers_market": "Powell Chamber Farmers Market — Saturdays May-October at 240 N. Liberty St.",
+      "concert_series": "Community Band Concert Series at Village Green in summer.",
+      "holiday_lighting": "Holidays in Powell tree-lighting and seasonal events.",
+      "deer_management": "No formal city-led culling program identified.",
+      "tree_program": "Tree City USA; forestry via Public Works.",
+      "ev_chargers": "Limited public EV; no documented municipal program.",
+      "downtown": "Historic downtown around four corners (Olentangy/Liberty); Village Green civic core."
+    },
+    "schools": { "district": "Olentangy Local Schools", "note": "Top-rated and fastest-growing in Ohio" },
+    "costs": { "municipal_income_tax_pct": 2.0 },
+    "sources": [
+      { "label": "Powell Departments", "url": "https://www.cityofpowell.us/About-Us/Departments" },
+      { "label": "Powell Parks & Rec", "url": "https://www.cityofpowell.us/Residents/Parks-Recreation" },
+      { "label": "Powell Taxes (2.0%)", "url": "https://www.cityofpowell.us/About-Us/Departments/Finance-Department/Taxes" },
+      { "label": "Powell Festival", "url": "https://www.cityofpowell.us/Visitors/Events/Powell-Festival" }
+    ]
+  },
+  "bexley": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "AEP Ohio", "fiber_is_municipal": false, "water": "City of Columbus (wholesale)", "sewer": "City of Bexley local; Columbus treatment", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Bexley Public Library — INDEPENDENT system", "library_url": "https://bexleylibrary.org/", "has_rec_center": false, "rec_center_name": "Jeffrey Mansion (Parks & Rec HQ, not a fitness center)", "senior_center": "Bexley Senior Center (dedicated)", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "Jeffrey Park (34 ac, gifted 1941) anchors the system; David H. Madison Community Pool is the seasonal outdoor pool.",
+      "trails": "Boardwalk along Alum Creek in Jeffrey Park; limited mileage due to dense first-ring grid.",
+      "pickleball": "Court availability at parks; no dedicated complex.",
+      "dog_parks": "No major dedicated dog park within city limits.",
+      "library": "Bexley Public Library — fully independent single-branch system (separate from CML).",
+      "community_center": "No purpose-built rec/community center; Jeffrey Mansion houses programming and admin.",
+      "senior_center": "Dedicated Bexley Senior Center with programming.",
+      "ice_rink": "No municipal ice rink.",
+      "public_art": "Ad hoc + Capital University partnerships (Mees Hall, Schumacher Gallery); no formal master plan.",
+      "farmers_market": "Bexley Farmers Market (seasonal, Cassady Ave / Capital University).",
+      "concert_series": "Jazz in the Park summer series at Jeffrey Park.",
+      "holiday_lighting": "Annual Tree Lighting + Light Collection winter display (Dec 1-22).",
+      "deer_management": "No formal program identified on city site.",
+      "tree_program": "Tree City USA; Earth & Arbor Month programming.",
+      "ev_chargers": "Limited; no documented municipal program.",
+      "downtown": "Main Street / Bexley Square along East Main — walkable district with shops and restaurants."
+    },
+    "schools": { "district": "Bexley City Schools", "note": "Small, high-performing district with strong arts/academics" },
+    "costs": { "municipal_income_tax_pct": 2.5 },
+    "sources": [
+      { "label": "Bexley homepage", "url": "https://bexley.org/" },
+      { "label": "Bexley Recreation & Parks", "url": "https://bexley.org/recreation/" },
+      { "label": "Bexley Pool", "url": "https://bexley.org/pool/" },
+      { "label": "Bexley Trash (alley pickup)", "url": "https://bexley.org/trash/" },
+      { "label": "Bexley Library", "url": "https://bexleylibrary.org/" }
+    ]
+  },
+  "worthington": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "AEP Ohio", "fiber_is_municipal": false, "water": "City of Columbus", "sewer": "City of Columbus", "ev_chargers": "Public EV at City facilities + Community Center area", "stormwater_fee": null },
+    "civic": { "library": "Worthington Libraries — INDEPENDENT multi-branch (Old Worthington, Northwest, Worthington Park)", "library_url": "https://www.worthingtonlibraries.org/", "has_rec_center": true, "rec_center_name": "Worthington Community Center (345 E. Wilson Bridge Rd)", "senior_center": "Griswold Center — dedicated 55+ facility", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "221+ acres; Worthington Community Center includes aquatics; outdoor pool program; McCord Park recently renovated.",
+      "trails": "Olentangy River Parklands connect to regional Olentangy Trail; bike/multi-use network.",
+      "pickleball": "Courts at parks + Community Center programming.",
+      "dog_parks": "Godown Park dog park.",
+      "library": "Worthington Libraries — independent system, nationally recognized, three branches.",
+      "community_center": "Worthington Community Center — full-service rec with fitness, gym, aquatics.",
+      "senior_center": "Griswold Center — dedicated 55+ facility (fitness, crafts, library, social).",
+      "ice_rink": "No municipal ice rink.",
+      "public_art": "Public art via Worthington Arts Council partnerships; not a Dublin-scale master plan.",
+      "farmers_market": "Worthington Farmers Market — YEAR-ROUND (summer outdoor in Old Worthington / winter indoor Nov-Apr at Shops at Worthington Place); est. 1987.",
+      "concert_series": "Summer concert series in Old Worthington (Village Green).",
+      "holiday_lighting": "Old Worthington holiday lighting + Market Day events.",
+      "deer_management": "Formal Deer Management Program; targeted removal by USDA Wildlife Services Jan-Feb 2026.",
+      "tree_program": "Tree City USA; active urban forestry.",
+      "ev_chargers": "Public EV at City facilities and Community Center.",
+      "downtown": "Old Worthington along High Street — colonial-era walkable historic district anchored by Village Green."
+    },
+    "schools": { "district": "Worthington City Schools", "note": "Two-high-school district (Worthington Kilbourne, Thomas Worthington)" },
+    "costs": { "municipal_income_tax_pct": 2.5 },
+    "sources": [
+      { "label": "Worthington Parks & Rec", "url": "https://www.worthington.org/208/Parks-Recreation" },
+      { "label": "Griswold Center", "url": "https://www.worthington.org/241/Griswold-Center" },
+      { "label": "Worthington Community Center", "url": "https://www.worthington.org/209/Community-Center" },
+      { "label": "Worthington Income Tax", "url": "https://worthington.org/103/Income-Tax" },
+      { "label": "Worthington Deer Management", "url": "https://www.worthington.org/2025/Deer" },
+      { "label": "Worthington Libraries", "url": "https://www.worthingtonlibraries.org/" }
+    ]
+  },
+  "new-albany": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "AEP Ohio", "fiber_is_municipal": false, "water": "City of Columbus", "sewer": "City of Columbus", "ev_chargers": null, "stormwater_fee": null },
+    "civic": { "library": "Columbus Metropolitan Library — New Albany Branch (200 Market St)", "library_url": "https://www.columbuslibrary.org/locations/new-albany/", "has_rec_center": true, "rec_center_name": "Philip Heit Center for Healthy New Albany (current) + Fieldhouse & Community Center (185,890 sf, opening 2026)", "senior_center": "Programming via Healthy New Albany / Heit Center; no dedicated facility", "ice_rink": "No" },
+    "amenities": {
+      "parks_pools": "Bevelhymer Park, Thompson Park, Wexner Park + extensive joint park district facilities; relies on private swim clubs (no municipal outdoor pool).",
+      "trails": "Over 50 miles of paved leisure trails — the signature amenity, connecting neighborhoods, parks, and Village Center. ('80+' figure circulates but is NOT confirmed by official sources.)",
+      "pickleball": "16-court tournament-grade pickleball complex at 7300 Walnut St (opened 2023) — among the largest free public complexes in the Columbus region.",
+      "dog_parks": "No flagship dog park identified in NA Parks system.",
+      "library": "Columbus Metropolitan Library — New Albany Branch.",
+      "community_center": "Philip Heit Center for Healthy New Albany (current) + 185,890 sf Fieldhouse & Community Center opening 2026 (indoor track, basketball, volleyball, pickleball).",
+      "senior_center": "Programming via Healthy New Albany; no senior-only building.",
+      "ice_rink": "No municipal ice rink.",
+      "public_art": "Public art via Rose Run Park + New Albany Company partnerships; not Dublin-scale formal program.",
+      "farmers_market": "Healthy New Albany Farmers Market — Thursdays July-August, Market Square.",
+      "concert_series": "Summer Concert Series at Charleen & Charles Hinson Amphitheater.",
+      "holiday_lighting": "Holiday lighting in Village Center / Market Square.",
+      "deer_management": "No formal city-led culling program documented.",
+      "tree_program": "Tree City USA; active community forestry.",
+      "ev_chargers": "Public EV at municipal + corporate-campus locations; not centrally documented.",
+      "downtown": "New Albany Village Center / Market Square — planned, Georgian-style walkable mixed-use core."
+    },
+    "schools": { "district": "New Albany-Plain Local Schools", "note": "Single unified K-12 campus; Amazon-sponsored 'Think Big' STEM corners" },
+    "costs": { "municipal_income_tax_pct": 2.0 },
+    "sources": [
+      { "label": "New Albany Pickleball", "url": "https://newalbanyohio.org/pickleball/" },
+      { "label": "New Albany Parks", "url": "https://naparksohio.org/" },
+      { "label": "NA Fieldhouse Information", "url": "https://naparksohio.org/parks-and-facilities/fieldhouse-information/" },
+      { "label": "New Albany Taxes (2.0%)", "url": "https://newalbanyohio.org/community-resources/taxes/" }
+    ]
+  },
+  "upper-arlington": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "AEP Ohio", "fiber_is_municipal": false, "water": "City of Columbus", "sewer": "City of Columbus", "ev_chargers": "Public EV at Municipal Services Center + Bob Crane CC", "stormwater_fee": null },
+    "civic": { "library": "Upper Arlington Public Library — INDEPENDENT, multi-branch (est. 1967 via Ohio HB 494)", "library_url": "https://www.ualibrary.org/", "has_rec_center": true, "rec_center_name": "Bob Crane Community Center (3200 Tremont Rd)", "senior_center": "Through Bob Crane CC / Parks & Rec", "ice_rink": "No municipal indoor rink (regional)" },
+    "amenities": {
+      "parks_pools": "Three outdoor pools (Memorial Day-Labor Day) + Bob Crane indoor aquatics; flagship parks: Northam, Thompson, Fancyburg, Reed Road.",
+      "trails": "Tremont Road and neighborhood bike paths; integrated with Columbus regional trail system.",
+      "pickleball": "Courts at Northam and other parks + indoor at Bob Crane CC.",
+      "dog_parks": "Dog park within Parks & Rec system.",
+      "library": "Upper Arlington Public Library — independent, multi-branch, locally governed since 1967.",
+      "community_center": "Bob Crane Community Center: ~165,000 sf, 5 floors, indoor pool, two gyms, walking track, art gallery, e-sports room, cafe. Top OPRA awards.",
+      "senior_center": "Senior programs through Bob Crane CC; no separate facility.",
+      "ice_rink": "No municipal ice rink.",
+      "public_art": "Public art at Northam, Miller Park; not Dublin-scale master plan.",
+      "farmers_market": "Upper Arlington Farmers Market — Wednesdays 3-6 pm, May-September.",
+      "concert_series": "UA Performance Series + Sounds of Summer at Mallway / Tremont Center.",
+      "holiday_lighting": "Annual tree-lighting + holiday events at Mallway Park.",
+      "deer_management": "Discussion ongoing; no formal sharpshooter program (vs. Worthington's).",
+      "tree_program": "Tree City USA since 1990; annual Arbor Day planting.",
+      "ev_chargers": "Public EV at Municipal Services Center + Bob Crane CC.",
+      "downtown": "No traditional downtown; commercial nodes at Lane Ave, Kingsdale, Tremont/Arlington Ave."
+    },
+    "schools": { "district": "Upper Arlington City Schools", "note": "Single comprehensive HS district; nationally recognized academics" },
+    "costs": { "municipal_income_tax_pct": 2.5 },
+    "sources": [
+      { "label": "Bob Crane Community Center", "url": "https://www.upperarlingtonoh.gov/295/Bob-Crane-Community-Center" },
+      { "label": "UA Parks & Rec", "url": "https://www.upperarlingtonoh.gov/159/Parks-Recreation" },
+      { "label": "UA Taxes (2.5%)", "url": "https://www.upperarlingtonoh.gov/428/Taxes-in-Upper-Arlington" },
+      { "label": "Labor Day Arts Festival", "url": "https://www.upperarlingtonoh.gov/187/Labor-Day-Arts-Festival" },
+      { "label": "UA Library", "url": "https://www.ualibrary.org/" }
+    ]
+  },
+  "dublin": {
+    "utilities": { "electric_is_municipal": false, "electric_provider": "AEP Ohio", "fiber_is_municipal": true, "fiber_provider": "DubLink (100 Gbps backbone) + Fiber to Every Home (FTTH, substantially complete 2026)", "water": "City of Dublin (own water/sewer utility)", "sewer": "City of Dublin", "ev_chargers": "Public EV at City facilities + Bridge Park", "stormwater_fee": null },
+    "civic": { "library": "Columbus Metropolitan Library — Dublin Branch", "library_url": "https://www.columbuslibrary.org/locations/dublin/", "has_rec_center": true, "rec_center_name": "Dublin Community Recreation Center (DCRC)", "senior_center": "Programs through DCRC + Dublin Community Senior Citizens", "ice_rink": "Chiller Dublin (private operator, public access)" },
+    "amenities": {
+      "parks_pools": "60+ parks including Bridge Park, Coffman Park, Glacier Ridge; Dublin Community Pool North + South for outdoor swimming.",
+      "trails": "Over 130 miles of paved bike paths and shared-use trails — one of the largest networks in Ohio.",
+      "pickleball": "Multiple pickleball locations across park system, including dedicated complexes.",
+      "dog_parks": "Multiple dog parks (Coffman Park dog park, etc.).",
+      "library": "Served by CML Dublin Branch.",
+      "community_center": "Dublin Community Recreation Center (DCRC) — large multi-purpose with aquatics, gyms, theater.",
+      "senior_center": "Senior programming through DCRC.",
+      "ice_rink": "Chiller Dublin (privately operated, public access).",
+      "public_art": "Art in Public Places — established 1988, 60+ permanent works, 2021 Public Art Master Plan, funded by 6% hotel/motel tax, partnership with Dublin Arts Council.",
+      "farmers_market": "Dublin Market at Bridge Park (seasonal).",
+      "concert_series": "Sundays at Scioto + Bridge Park concerts.",
+      "holiday_lighting": "Annual Tree Lighting at Bridge Park; year-round Bridge Street District lighting.",
+      "deer_management": "Active deer management program (sharpshooter + habitat in parks).",
+      "tree_program": "Tree City USA; robust urban forestry.",
+      "ev_chargers": "Public EV at City facilities + Bridge Park garages.",
+      "downtown": "Bridge Park (modern mixed-use along Riverside Dr) + Historic Dublin (across the Scioto) — dual downtown anchors."
+    },
+    "schools": { "district": "Dublin City Schools", "note": "Three-high-school district (Coffman, Scioto, Jerome)" },
+    "costs": { "municipal_income_tax_pct": 2.0 },
+    "sources": [
+      { "label": "Dublin Art in Public Places", "url": "https://dublinohiousa.gov/art-in-public-places/" },
+      { "label": "Dublin Arts Council Public Art", "url": "https://www.dublinarts.org/publicart" },
+      { "label": "Dublin Taxation (2.0%)", "url": "https://dublinohiousa.gov/taxation/" },
+      { "label": "DubLink Broadband", "url": "https://www.econdev.dublinohiousa.gov/dublink-broadband" },
+      { "label": "Dublin Most Connected (FTTH)", "url": "https://dublinohiousa.gov/most-connected/" }
+    ]
+  }
+}

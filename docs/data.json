@@ -1,0 +1,1546 @@
+{
+  "meta": {
+    "title": "Hudson, Ohio · Peer Benchmark",
+    "subtitle": "Services and amenities across 14 Ohio cities",
+    "compiled": "2026-05-13",
+    "version": "0.2",
+    "hero_image": {
+      "src": "assets/photos/hudson-hero.jpg",
+      "credit": "Hudson, Ohio — historic downtown. Photo: see LICENSES.md"
+    }
+  },
+  "cities": [
+    {
+      "key": "hudson",
+      "name": "Hudson",
+      "tier": "subject",
+      "county": "Summit",
+      "region": "NE Ohio",
+      "population": 23073,
+      "median_hh_income": 171427,
+      "signature_amenity": "Endowed library + municipal fiber + clock-tower downtown",
+      "distinctive": "Western Reserve village with a privately-endowed library, municipal electric, and municipal fiber.",
+      "photo": {
+        "src": "assets/photos/hudson.jpg",
+        "alt": "Hudson clock tower"
+      },
+      "utilities": {
+        "electric_is_municipal": true,
+        "electric_provider": "Hudson Public Power",
+        "fiber_is_municipal": true,
+        "fiber_provider": "Velocity Broadband",
+        "water": "City of Hudson water (Aqua Ohio source)",
+        "sewer": "City of Hudson sewer",
+        "ev_chargers": "Yes — at City Hall and select parks",
+        "public_wifi": "Velocity-backed in downtown"
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Hudson Library & Historical Society — privately endowed; National Medal for Museum and Library Service (2009)",
+        "library_url": "https://www.hudsonlibrary.org/about/",
+        "community_center": "No standalone city rec center; library serves much of that role",
+        "senior_center": "Yes — programs through Hudson Community Service",
+        "ice_rink": "No (use regional)"
+      },
+      "amenities": {
+        "parks_pools": "Hudson Springs Park, Cascade Park, multiple township parks; splash pad at the Reserve at Hudson Springs",
+        "trails": "Hudson Springs loop, Veterans Way Trail; regional connections to Towpath / Summit Metro Parks",
+        "pickleball": "Courts at Cascade Park; growing program",
+        "dog_parks": "Hudson Springs dog area",
+        "library": "Hudson Library & Historical Society — privately endowed, 2009 National Medal winner; flagship cultural institution",
+        "community_center": "No standalone city rec center; programs run through Parks & Rec and partner orgs",
+        "senior_center": "Hudson Community Service senior programs",
+        "ice_rink": "Regional (Kent State / Bay Village indirectly via OAHL)",
+        "public_art": "Outdoor public sculpture, historic plaques along the Green",
+        "farmers_market": "Hudson Farmers' Market — Saturdays in season, on the Green",
+        "concert_series": "Music on the Green summer series",
+        "holiday_lighting": "Iconic First & Main + Green lighting display — the signature Hudson tradition",
+        "deer_management": "Controlled deer-hunting / archery program on city land",
+        "mosquito": "Summit County Public Health spraying (county-administered)",
+        "tree_program": "Tree City USA; active tree commission and arborist",
+        "leaf_pickup": "Curbside seasonal pickup",
+        "ev_chargers": "Public chargers at City Hall and select parks",
+        "downtown": "First & Main mixed-use district + historic Green — the canonical Hudson postcard"
+      },
+      "downtown": "First & Main + the Green — a textbook walkable Western Reserve downtown",
+      "schools": {
+        "district": "Hudson City Schools",
+        "report_card_grade": null,
+        "per_pupil_spending": null,
+        "note": "Routinely top-5 in Ohio Dept of Ed rankings; major driver of home values"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2,
+        "effective_property_tax_per_500k": null,
+        "water_per_5kgal": null,
+        "sewer_per_5kgal": null,
+        "stormwater_fee": null,
+        "rec_pass": null
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Hudson",
+          "url": "https://www.census.gov/quickfacts/fact/table/hudsoncityohio/INC110218"
+        },
+        {
+          "label": "City of Hudson — Utilities",
+          "url": "https://www.hudson.oh.us/280/Utilities"
+        },
+        {
+          "label": "Hudson Public Power",
+          "url": "https://www.hudson.oh.us/1364/Hudson-Public-Power-Programs"
+        },
+        {
+          "label": "Velocity Broadband",
+          "url": "https://www.hudson.oh.us/1277/Velocity-Broadband"
+        },
+        {
+          "label": "Hudson Library & Historical Society",
+          "url": "https://www.hudsonlibrary.org/about/"
+        },
+        {
+          "label": "First & Main Hudson",
+          "url": "https://www.firstandmainhudson.com/about"
+        },
+        {
+          "label": "Hudson Parks",
+          "url": "https://www.hudson.oh.us/1377/Parks-Cemeteries"
+        },
+        {
+          "label": "Hudson Deer Hunting Program",
+          "url": "https://www.hudson.oh.us/317/Deer-Hunting"
+        }
+      ]
+    },
+    {
+      "key": "solon",
+      "name": "Solon",
+      "tier": "A",
+      "county": "Cuyahoga",
+      "region": "NE Ohio",
+      "population": 23875,
+      "median_hh_income": 135180,
+      "signature_amenity": "Solon Community Center — pools, climbing wall, current stream",
+      "distinctive": "Tightest size match to Hudson; world-class community-center facility; major commercial base.",
+      "photo": {
+        "src": "assets/photos/solon.jpg",
+        "alt": "Solon Community Center"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "has_municipal_water": true,
+        "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)",
+        "water": "Cleveland Water",
+        "sewer": "City of Solon municipal sanitary sewer",
+        "ev_chargers": null,
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Solon Branch · Cuyahoga County Public Library",
+        "library_url": "https://cuyahogalibrary.org/branches/solon",
+        "rec_center_name": "Solon Community Center",
+        "rec_center_url": "https://www.solonohio.gov/735/Aquatics",
+        "rec_center_features": "Indoor + outdoor pool complex with lazy river, zero-entry, waterslides; rock climbing wall; gym; jogging track; aerobics studio; free-weight room; hot tub",
+        "senior_center": "Solon Senior Center (attached to Community Center; free for residents)",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Solon Community Center indoor+outdoor pool complex with lazy river and waterslides plus Community Park.",
+        "trails": "Walking paths through park system and along the Community Center campus.",
+        "pickleball": "Available through Recreation programming; specific court count not published.",
+        "dog_parks": "Not prominently published on city site.",
+        "library": "Solon Branch of Cuyahoga County Public Library — a top branch in a top-rated CCPL system.",
+        "community_center": "Solon Community Center is a true full-service rec center: climbing wall, indoor + outdoor pool, gym, track.",
+        "senior_center": "Dedicated Solon Senior Center attached to the Community Center; free for residents.",
+        "ice_rink": "No municipal ice rink.",
+        "public_art": "Solon Center for the Arts (city department) offers gallery exhibits, classes, theater & music.",
+        "farmers_market": "Solon Farmers Market — Wednesdays 4-7pm at Bicentennial Park during the season.",
+        "concert_series": "Summer concert programming through Solon Center for the Arts/Parks & Rec.",
+        "holiday_lighting": "Annual community events on city calendar.",
+        "deer_management": "Formal Solon Deer Management Plan published on city site.",
+        "tree_program": "Tree City USA status not specifically confirmed on city site.",
+        "ev_chargers": "Not published on city site.",
+        "downtown": "No traditional walkable downtown; commercial spine along SOM Center and Aurora roads."
+      },
+      "schools": {
+        "district": "Solon City Schools",
+        "note": "Routinely top-ranked district in Ohio"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Solon",
+          "url": "https://www.census.gov/quickfacts/fact/table/soloncityohio"
+        },
+        {
+          "label": "Solon Community Center",
+          "url": "https://www.solonohio.gov/index.aspx?nid=454"
+        },
+        {
+          "label": "Solon Community Center / Aquatics",
+          "url": "https://www.solonohio.gov/735/Aquatics"
+        },
+        {
+          "label": "Solon Senior Center",
+          "url": "https://www.solonohio.gov/255/Active-Adults-Senior-Services"
+        },
+        {
+          "label": "Solon Deer Management",
+          "url": "https://www.solonohio.gov/339/Deer-Management"
+        },
+        {
+          "label": "Solon Farmers Market",
+          "url": "https://www.solonohio.gov/1432/Farmers-Market-2026"
+        },
+        {
+          "label": "Solon Income Tax",
+          "url": "https://www.solonohio.gov/250/Income-Tax"
+        }
+      ]
+    },
+    {
+      "key": "aurora",
+      "name": "Aurora",
+      "tier": "A",
+      "county": "Portage",
+      "region": "NE Ohio",
+      "population": 17985,
+      "median_hh_income": 127886,
+      "signature_amenity": "Geauga Lake-era nostalgia + Sun Run trails",
+      "distinctive": "Hudson's closest NE Ohio twin on demographics; quieter civic profile.",
+      "photo": {
+        "src": "assets/photos/aurora.jpg",
+        "alt": "Aurora, Ohio town square"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Ohio Edison (FirstEnergy)",
+        "water": "City of Aurora municipal water",
+        "sewer": "City of Aurora municipal sewer",
+        "ev_chargers": null,
+        "stormwater_fee": "Storm drain charge bundled in utility rate"
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Aurora Memorial Library · Portage County District Library",
+        "library_url": "https://www.portagelibrary.org/",
+        "rec_center_name": "Aurora Recreation Community Center (ARCC)",
+        "rec_center_url": "https://www.auroraparksandrec.org/",
+        "rec_center_features": "24/7 fitness center, group fitness, gym, activity rooms, leagues; separate seasonal Aurora Aquatic Center",
+        "senior_center": "Senior programming via Parks & Rec; no stand-alone facility",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Aurora Aquatic Center (seasonal outdoor); 1,800+ acres of park/greenspace across 13+ named parks.",
+        "trails": "Sunny Lake's 1.75-mile paved loop plus multiple branching hiking trails through park system.",
+        "pickleball": "Available through ARCC programming.",
+        "dog_parks": "Dedicated dog park within park system.",
+        "library": "Aurora Memorial Library is the Aurora branch of Portage County District Library.",
+        "community_center": "Aurora Recreation Community Center (ARCC) — fitness center, leagues, gym, activity rooms.",
+        "senior_center": "Senior programming via Parks & Rec rather than a dedicated facility.",
+        "ice_rink": "None.",
+        "public_art": "Moebius Nature Center; community garden.",
+        "farmers_market": "Aurora Farmers Market operates seasonally.",
+        "concert_series": "Summer programming via Parks & Rec community events.",
+        "holiday_lighting": "Tree lighting and seasonal events on city calendar.",
+        "deer_management": "Annual deer hunting permit lottery administered by Aurora Police.",
+        "tree_program": "Tree City USA since 1992; Street Tree Program nationally recognized by National Arbor Day Foundation.",
+        "ev_chargers": "Not published on city site.",
+        "downtown": "No traditional walkable downtown; commercial nodes along Rt 43/Chillicothe."
+      },
+      "schools": {
+        "district": "Aurora City Schools",
+        "note": "Highly rated suburban district"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Aurora",
+          "url": "https://www.census.gov/quickfacts/fact/table/auroracityohio"
+        },
+        {
+          "label": "Aurora Parks & Rec",
+          "url": "https://www.auroraoh.com/departments/parks___recreation/index.php"
+        },
+        {
+          "label": "ARCC",
+          "url": "https://www.auroraparksandrec.org/"
+        },
+        {
+          "label": "Aurora Tree Management",
+          "url": "https://www.auroraoh.com/departments/parks___recreation/parks/tree_management.php"
+        },
+        {
+          "label": "Aurora Income Tax",
+          "url": "https://www.auroraoh.com/departments/finance/taxes/income_taxes.php"
+        }
+      ]
+    },
+    {
+      "key": "bay-village",
+      "name": "Bay Village",
+      "tier": "A",
+      "county": "Cuyahoga",
+      "region": "NE Ohio",
+      "population": 15903,
+      "median_hh_income": 132254,
+      "signature_amenity": "Cahoon Memorial Park + Lake Erie lakefront",
+      "distinctive": "West-side lakefront old-money suburb; smaller, denser than Hudson.",
+      "photo": {
+        "src": "assets/photos/bay-village.jpg",
+        "alt": "Bay Village lakefront"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)",
+        "water": "Cleveland Water",
+        "sewer": "City of Bay Village",
+        "ev_chargers": null,
+        "stormwater_fee": "$9 per quarter ($36/year)"
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Bay Village Branch · CCPL (rebuilt 2022, 17,000 sf, rooftop terrace overlooking Lake Erie, Innovation Center)",
+        "library_url": "https://cuyahogalibrary.org/branches/bay-village",
+        "rec_center_name": "Campus model — Community House (1882) + Community Gym + Aquatic Center + school gyms",
+        "senior_center": "Dwyer Memorial Senior Center (M-F 8:30-4:30)",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Seasonal outdoor Aquatic Center; multiple lakeside parks; no indoor pool.",
+        "trails": "West Interurban Connector Trail and Interurban Pedestrian Bridge connect to Lake Erie.",
+        "pickleball": "Adult pickleball programming through Rec Department.",
+        "dog_parks": "Not listed on city Parks & Rec site.",
+        "library": "Brand-new (2022) CCPL Bay Village Branch with Lake Erie rooftop terrace — architecturally distinctive.",
+        "community_center": "Campus model: 1882 Community House + Community Gym + Aquatic Center + school gyms.",
+        "senior_center": "Dedicated Dwyer Memorial Senior Center.",
+        "ice_rink": "None.",
+        "public_art": "BAYarts cultural campus (independent nonprofit) hosts gallery, classes, and farmers market.",
+        "farmers_market": "BAYarts Farmers Market (seasonal, at BAYarts campus).",
+        "concert_series": "Summer programming through Rec and BAYarts.",
+        "holiday_lighting": "Bay Days 4-day carnival with fireworks (Kiwanis-run).",
+        "deer_management": "Formal deer management program on city site.",
+        "tree_program": "Tree City USA status not confirmed on city site.",
+        "ev_chargers": "Not published.",
+        "downtown": "Small Dover Center / Wolf Road commercial node; no traditional walkable downtown."
+      },
+      "schools": {
+        "district": "Bay Village City Schools",
+        "note": "Highly regarded small district"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 1.5,
+        "stormwater_fee": 36
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Bay Village",
+          "url": "https://www.census.gov/quickfacts/fact/table/bayvillagecityohio"
+        },
+        {
+          "label": "Bay Village Parks & Rec",
+          "url": "https://www.cityofbayvillage.gov/185/Parks-Recreation"
+        },
+        {
+          "label": "Bay Village Income Tax",
+          "url": "https://www.cityofbayvillage.gov/233/Municipal-Income-Tax"
+        },
+        {
+          "label": "Bay Village Sewer/Stormwater",
+          "url": "https://www.cityofbayvillage.gov/531/City-Sewer-Rate-Increase"
+        },
+        {
+          "label": "Bay Village Deer Management",
+          "url": "https://www.cityofbayvillage.com/388/Deer-Management"
+        },
+        {
+          "label": "CCPL Bay Village Branch",
+          "url": "https://cuyahogalibrary.org/branches/bay-village"
+        }
+      ]
+    },
+    {
+      "key": "rocky-river",
+      "name": "Rocky River",
+      "tier": "A",
+      "county": "Cuyahoga",
+      "region": "NE Ohio",
+      "population": 21500,
+      "median_hh_income": 94026,
+      "signature_amenity": "Summer Concert Series + Rocky River Reservation access",
+      "distinctive": "West-side Cuyahoga peer on culture and geography; median income lower than other Tier A.",
+      "photo": {
+        "src": "assets/photos/rocky-river.jpg",
+        "alt": "Rocky River, Ohio"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)",
+        "water": "Cleveland Water",
+        "sewer": "Rocky River Division of Sewer Billing (city-managed)",
+        "ev_chargers": null,
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Rocky River Public Library — INDEPENDENT municipal library",
+        "library_url": "http://www.rrpl.org/",
+        "rec_center_name": "Rocky River Recreation Center",
+        "rec_center_url": "https://www.rockyriverohio.gov/rec",
+        "rec_center_features": "Indoor pool, seasonal outdoor pool, gym/fitness, classes; campus shared with Hamilton Ice Arena",
+        "senior_center": "Rocky River Senior Center (free to join; M-F 8:30-4:30)",
+        "ice_rink": "Hamilton Ice Arena (city-owned)"
+      },
+      "amenities": {
+        "parks_pools": "Indoor pool + seasonal outdoor municipal pool; 10 named parks including lakefront Rocky River Park and Bradstreet's Landing.",
+        "trails": "Adjacent to Cleveland Metroparks Rocky River Reservation; sledding hills at Morley and Rocky River parks.",
+        "pickleball": "12 pickleball courts at Tri City Park plus courts at Linden Park.",
+        "dog_parks": "Not listed in city parks page.",
+        "library": "Independent Rocky River Public Library — its own taxing district, not part of CCPL.",
+        "community_center": "Full Recreation Center on municipal campus including indoor pool.",
+        "senior_center": "Dedicated Rocky River Senior Center — free to join.",
+        "ice_rink": "Hamilton Ice Arena (city-owned, on City Hall Park campus) — distinctive among peers.",
+        "public_art": "Limited published.",
+        "farmers_market": "Not prominently published on city site.",
+        "concert_series": "Summer Concert Series via Rec Department.",
+        "holiday_lighting": "Annual community events.",
+        "deer_management": "Not prominently published.",
+        "tree_program": "Status not confirmed.",
+        "ev_chargers": "Not published.",
+        "downtown": "Beachcliff / Old Detroit commercial district — boutique shops, cafes, dining."
+      },
+      "schools": {
+        "district": "Rocky River City Schools",
+        "note": "Strong westside lakefront district"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Rocky River",
+          "url": "https://www.census.gov/quickfacts/fact/table/rockyrivercityohio"
+        },
+        {
+          "label": "Rocky River Summer Concert Series",
+          "url": "https://www.rockyriverohio.gov/rocky-river-events/summer-concert-series"
+        },
+        {
+          "label": "Rocky River Recreation",
+          "url": "https://www.rockyriverohio.gov/rec"
+        },
+        {
+          "label": "Hamilton Ice Arena",
+          "url": "https://www.rockyriverohio.gov/rink"
+        },
+        {
+          "label": "Rocky River Parks",
+          "url": "https://www.rockyriverohio.gov/city-parks"
+        },
+        {
+          "label": "Rocky River Public Library",
+          "url": "http://www.rrpl.org/"
+        }
+      ]
+    },
+    {
+      "key": "powell",
+      "name": "Powell",
+      "tier": "A",
+      "county": "Delaware",
+      "region": "Columbus",
+      "population": 14613,
+      "median_hh_income": 195495,
+      "signature_amenity": "Columbus Zoo + Olentangy school district",
+      "distinctive": "Higher median income than Hudson; newer-built growth suburb; Olentangy schools.",
+      "photo": {
+        "src": "assets/photos/powell.jpg",
+        "alt": "Powell, Ohio downtown"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "AEP Ohio",
+        "water": "Del-Co Water Company",
+        "sewer": "Delaware County Regional Sewer District",
+        "ev_chargers": null,
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Delaware County District Library",
+        "library_url": "https://www.delawarelibrary.org/",
+        "rec_center_name": null,
+        "senior_center": "Programs only",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "10 parks (~125 ac) including Village Green and Adventure Park; no municipal pool (relies on private/HOA).",
+        "trails": "Nearly 30 miles of paved bike/multi-use trails connecting parks and neighborhoods.",
+        "pickleball": "Courts at city parks; no dedicated complex.",
+        "dog_parks": "Not a flagship; off-leash via county/township options.",
+        "library": "Served by Delaware County District Library (independent county system).",
+        "community_center": "No municipal community/recreation center.",
+        "senior_center": "Programs only; no standalone senior facility.",
+        "ice_rink": "No municipal ice rink.",
+        "public_art": "Ad hoc; no formal program.",
+        "farmers_market": "Powell Chamber Farmers Market — Saturdays May-October at 240 N. Liberty St.",
+        "concert_series": "Community Band Concert Series at Village Green in summer.",
+        "holiday_lighting": "Holidays in Powell tree-lighting and seasonal events.",
+        "deer_management": "No formal city-led culling program identified.",
+        "tree_program": "Tree City USA; forestry via Public Works.",
+        "ev_chargers": "Limited public EV; no documented municipal program.",
+        "downtown": "Historic downtown around four corners (Olentangy/Liberty); Village Green civic core."
+      },
+      "schools": {
+        "district": "Olentangy Local Schools",
+        "note": "Top-rated and fastest-growing in Ohio"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Powell",
+          "url": "https://www.census.gov/quickfacts/fact/table/powellcityohio"
+        },
+        {
+          "label": "Powell Departments",
+          "url": "https://www.cityofpowell.us/About-Us/Departments"
+        },
+        {
+          "label": "Powell Parks & Rec",
+          "url": "https://www.cityofpowell.us/Residents/Parks-Recreation"
+        },
+        {
+          "label": "Powell Taxes (2.0%)",
+          "url": "https://www.cityofpowell.us/About-Us/Departments/Finance-Department/Taxes"
+        },
+        {
+          "label": "Powell Festival",
+          "url": "https://www.cityofpowell.us/Visitors/Events/Powell-Festival"
+        }
+      ]
+    },
+    {
+      "key": "bexley",
+      "name": "Bexley",
+      "tier": "A",
+      "county": "Franklin",
+      "region": "Columbus",
+      "population": 12793,
+      "median_hh_income": 157841,
+      "signature_amenity": "Jeffrey Mansion / Jeffrey Park + Capital University proximity",
+      "distinctive": "Old, walkable, dense Columbus inner suburb; backdoor trash pickup; landlocked.",
+      "photo": {
+        "src": "assets/photos/bexley.jpg",
+        "alt": "Jeffrey Mansion, Bexley"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "AEP Ohio",
+        "water": "City of Columbus (wholesale)",
+        "sewer": "City of Bexley local; Columbus treatment",
+        "ev_chargers": null,
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Bexley Public Library — INDEPENDENT system",
+        "library_url": "https://bexleylibrary.org/",
+        "rec_center_name": "Jeffrey Mansion (Parks & Rec HQ, not a fitness center)",
+        "senior_center": "Bexley Senior Center (dedicated)",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Jeffrey Park (34 ac, gifted 1941) anchors the system; David H. Madison Community Pool is the seasonal outdoor pool.",
+        "trails": "Boardwalk along Alum Creek in Jeffrey Park; limited mileage due to dense first-ring grid.",
+        "pickleball": "Court availability at parks; no dedicated complex.",
+        "dog_parks": "No major dedicated dog park within city limits.",
+        "library": "Bexley Public Library — fully independent single-branch system (separate from CML).",
+        "community_center": "No purpose-built rec/community center; Jeffrey Mansion houses programming and admin.",
+        "senior_center": "Dedicated Bexley Senior Center with programming.",
+        "ice_rink": "No municipal ice rink.",
+        "public_art": "Ad hoc + Capital University partnerships (Mees Hall, Schumacher Gallery); no formal master plan.",
+        "farmers_market": "Bexley Farmers Market (seasonal, Cassady Ave / Capital University).",
+        "concert_series": "Jazz in the Park summer series at Jeffrey Park.",
+        "holiday_lighting": "Annual Tree Lighting + Light Collection winter display (Dec 1-22).",
+        "deer_management": "No formal program identified on city site.",
+        "tree_program": "Tree City USA; Earth & Arbor Month programming.",
+        "ev_chargers": "Limited; no documented municipal program.",
+        "downtown": "Main Street / Bexley Square along East Main — walkable district with shops and restaurants."
+      },
+      "schools": {
+        "district": "Bexley City Schools",
+        "note": "Small, high-performing district with strong arts/academics"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2.5
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Bexley",
+          "url": "https://www.census.gov/quickfacts/fact/table/bexleycityohio"
+        },
+        {
+          "label": "Bexley Parks",
+          "url": "https://bexley.org/parks/"
+        },
+        {
+          "label": "Bexley homepage",
+          "url": "https://bexley.org/"
+        },
+        {
+          "label": "Bexley Recreation & Parks",
+          "url": "https://bexley.org/recreation/"
+        },
+        {
+          "label": "Bexley Pool",
+          "url": "https://bexley.org/pool/"
+        },
+        {
+          "label": "Bexley Trash (alley pickup)",
+          "url": "https://bexley.org/trash/"
+        },
+        {
+          "label": "Bexley Library",
+          "url": "https://bexleylibrary.org/"
+        }
+      ]
+    },
+    {
+      "key": "worthington",
+      "name": "Worthington",
+      "tier": "A",
+      "county": "Franklin",
+      "region": "Columbus",
+      "population": 14649,
+      "median_hh_income": 124734,
+      "signature_amenity": "Year-round Farmers Market + Griswold Center for seniors",
+      "distinctive": "Historic Columbus inner suburb with rare year-round farmers market; dedicated senior facility.",
+      "photo": {
+        "src": "assets/photos/worthington.jpg",
+        "alt": "Worthington, Ohio town green"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "AEP Ohio",
+        "water": "City of Columbus",
+        "sewer": "City of Columbus",
+        "ev_chargers": "Public EV at City facilities + Community Center area",
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Worthington Libraries — INDEPENDENT multi-branch (Old Worthington, Northwest, Worthington Park)",
+        "library_url": "https://www.worthingtonlibraries.org/",
+        "rec_center_name": "Worthington Community Center (345 E. Wilson Bridge Rd)",
+        "senior_center": "Griswold Center — dedicated 55+ facility",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "221+ acres; Worthington Community Center includes aquatics; outdoor pool program; McCord Park recently renovated.",
+        "trails": "Olentangy River Parklands connect to regional Olentangy Trail; bike/multi-use network.",
+        "pickleball": "Courts at parks + Community Center programming.",
+        "dog_parks": "Godown Park dog park.",
+        "library": "Worthington Libraries — independent system, nationally recognized, three branches.",
+        "community_center": "Worthington Community Center — full-service rec with fitness, gym, aquatics.",
+        "senior_center": "Griswold Center — dedicated 55+ facility (fitness, crafts, library, social).",
+        "ice_rink": "No municipal ice rink.",
+        "public_art": "Public art via Worthington Arts Council partnerships; not a Dublin-scale master plan.",
+        "farmers_market": "Worthington Farmers Market — YEAR-ROUND (summer outdoor in Old Worthington / winter indoor Nov-Apr at Shops at Worthington Place); est. 1987.",
+        "concert_series": "Summer concert series in Old Worthington (Village Green).",
+        "holiday_lighting": "Old Worthington holiday lighting + Market Day events.",
+        "deer_management": "Formal Deer Management Program; targeted removal by USDA Wildlife Services Jan-Feb 2026.",
+        "tree_program": "Tree City USA; active urban forestry.",
+        "ev_chargers": "Public EV at City facilities and Community Center.",
+        "downtown": "Old Worthington along High Street — colonial-era walkable historic district anchored by Village Green."
+      },
+      "schools": {
+        "district": "Worthington City Schools",
+        "note": "Two-high-school district (Worthington Kilbourne, Thomas Worthington)"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2.5
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Worthington",
+          "url": "https://www.census.gov/quickfacts/fact/table/worthingtoncityohio"
+        },
+        {
+          "label": "Worthington Griswold Center",
+          "url": "https://www.worthington.org/241/Griswold-Center"
+        },
+        {
+          "label": "Worthington Farmers Market",
+          "url": "https://www.experienceworthington.com/about-the-worthington-farmers-market"
+        },
+        {
+          "label": "Worthington Parks & Rec",
+          "url": "https://www.worthington.org/208/Parks-Recreation"
+        },
+        {
+          "label": "Worthington Community Center",
+          "url": "https://www.worthington.org/209/Community-Center"
+        },
+        {
+          "label": "Worthington Income Tax",
+          "url": "https://worthington.org/103/Income-Tax"
+        },
+        {
+          "label": "Worthington Deer Management",
+          "url": "https://www.worthington.org/2025/Deer"
+        },
+        {
+          "label": "Worthington Libraries",
+          "url": "https://www.worthingtonlibraries.org/"
+        }
+      ]
+    },
+    {
+      "key": "new-albany",
+      "name": "New Albany",
+      "tier": "A",
+      "county": "Franklin",
+      "region": "Columbus",
+      "population": 11604,
+      "median_hh_income": 238250,
+      "signature_amenity": "16-court pickleball complex + 80 miles of leisure trails",
+      "distinctive": "Master-planned Georgian community; the highest-income city in this benchmark.",
+      "photo": {
+        "src": "assets/photos/new-albany.jpg",
+        "alt": "New Albany village center"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "AEP Ohio",
+        "water": "City of Columbus",
+        "sewer": "City of Columbus",
+        "ev_chargers": null,
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Columbus Metropolitan Library — New Albany Branch (200 Market St)",
+        "library_url": "https://www.columbuslibrary.org/locations/new-albany/",
+        "rec_center_name": "Philip Heit Center for Healthy New Albany (current) + Fieldhouse & Community Center (185,890 sf, opening 2026)",
+        "senior_center": "Programming via Healthy New Albany / Heit Center; no dedicated facility",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Bevelhymer Park, Thompson Park, Wexner Park + extensive joint park district facilities; relies on private swim clubs (no municipal outdoor pool).",
+        "trails": "Over 50 miles of paved leisure trails — the signature amenity, connecting neighborhoods, parks, and Village Center. ('80+' figure circulates but is NOT confirmed by official sources.)",
+        "pickleball": "16-court tournament-grade pickleball complex at 7300 Walnut St (opened 2023) — among the largest free public complexes in the Columbus region.",
+        "dog_parks": "No flagship dog park identified in NA Parks system.",
+        "library": "Columbus Metropolitan Library — New Albany Branch.",
+        "community_center": "Philip Heit Center for Healthy New Albany (current) + 185,890 sf Fieldhouse & Community Center opening 2026 (indoor track, basketball, volleyball, pickleball).",
+        "senior_center": "Programming via Healthy New Albany; no senior-only building.",
+        "ice_rink": "No municipal ice rink.",
+        "public_art": "Public art via Rose Run Park + New Albany Company partnerships; not Dublin-scale formal program.",
+        "farmers_market": "Healthy New Albany Farmers Market — Thursdays July-August, Market Square.",
+        "concert_series": "Summer Concert Series at Charleen & Charles Hinson Amphitheater.",
+        "holiday_lighting": "Holiday lighting in Village Center / Market Square.",
+        "deer_management": "No formal city-led culling program documented.",
+        "tree_program": "Tree City USA; active community forestry.",
+        "ev_chargers": "Public EV at municipal + corporate-campus locations; not centrally documented.",
+        "downtown": "New Albany Village Center / Market Square — planned, Georgian-style walkable mixed-use core."
+      },
+      "schools": {
+        "district": "New Albany-Plain Local Schools",
+        "note": "Single unified K-12 campus; Amazon-sponsored 'Think Big' STEM corners"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — New Albany",
+          "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio"
+        },
+        {
+          "label": "New Albany Parks & Trails",
+          "url": "https://newalbanyohio.org/parks-trails/"
+        },
+        {
+          "label": "New Albany Pickleball Complex",
+          "url": "https://newalbanyohio.org/pickleball/"
+        },
+        {
+          "label": "New Albany Parks",
+          "url": "https://naparksohio.org/"
+        },
+        {
+          "label": "NA Fieldhouse Information",
+          "url": "https://naparksohio.org/parks-and-facilities/fieldhouse-information/"
+        },
+        {
+          "label": "New Albany Taxes (2.0%)",
+          "url": "https://newalbanyohio.org/community-resources/taxes/"
+        }
+      ]
+    },
+    {
+      "key": "upper-arlington",
+      "name": "Upper Arlington",
+      "tier": "A",
+      "county": "Franklin",
+      "region": "Columbus",
+      "population": 36140,
+      "median_hh_income": 155167,
+      "signature_amenity": "Bob Crane / new community center + Tremont Library",
+      "distinctive": "Larger than peer band; the Ohio 'gold-standard' historic suburb. 'Old Arlington' core matches Hudson character.",
+      "photo": {
+        "src": "assets/photos/upper-arlington.jpg",
+        "alt": "Upper Arlington, Ohio"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "AEP Ohio",
+        "water": "City of Columbus",
+        "sewer": "City of Columbus",
+        "ev_chargers": "Public EV at Municipal Services Center + Bob Crane CC",
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Upper Arlington Public Library — INDEPENDENT, multi-branch (est. 1967 via Ohio HB 494)",
+        "library_url": "https://www.ualibrary.org/",
+        "rec_center_name": "Bob Crane Community Center (3200 Tremont Rd)",
+        "senior_center": "Through Bob Crane CC / Parks & Rec",
+        "ice_rink": "No municipal indoor rink (regional)"
+      },
+      "amenities": {
+        "parks_pools": "Three outdoor pools (Memorial Day-Labor Day) + Bob Crane indoor aquatics; flagship parks: Northam, Thompson, Fancyburg, Reed Road.",
+        "trails": "Tremont Road and neighborhood bike paths; integrated with Columbus regional trail system.",
+        "pickleball": "Courts at Northam and other parks + indoor at Bob Crane CC.",
+        "dog_parks": "Dog park within Parks & Rec system.",
+        "library": "Upper Arlington Public Library — independent, multi-branch, locally governed since 1967.",
+        "community_center": "Bob Crane Community Center: ~165,000 sf, 5 floors, indoor pool, two gyms, walking track, art gallery, e-sports room, cafe. Top OPRA awards.",
+        "senior_center": "Senior programs through Bob Crane CC; no separate facility.",
+        "ice_rink": "No municipal ice rink.",
+        "public_art": "Public art at Northam, Miller Park; not Dublin-scale master plan.",
+        "farmers_market": "Upper Arlington Farmers Market — Wednesdays 3-6 pm, May-September.",
+        "concert_series": "UA Performance Series + Sounds of Summer at Mallway / Tremont Center.",
+        "holiday_lighting": "Annual tree-lighting + holiday events at Mallway Park.",
+        "deer_management": "Discussion ongoing; no formal sharpshooter program (vs. Worthington's).",
+        "tree_program": "Tree City USA since 1990; annual Arbor Day planting.",
+        "ev_chargers": "Public EV at Municipal Services Center + Bob Crane CC.",
+        "downtown": "No traditional downtown; commercial nodes at Lane Ave, Kingsdale, Tremont/Arlington Ave."
+      },
+      "schools": {
+        "district": "Upper Arlington City Schools",
+        "note": "Single comprehensive HS district; nationally recognized academics"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2.5
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Upper Arlington",
+          "url": "https://www.census.gov/quickfacts/fact/table/upperarlingtoncityohio"
+        },
+        {
+          "label": "UA Community Center",
+          "url": "https://communitycenter.upperarlingtonoh.gov/"
+        },
+        {
+          "label": "Bob Crane Community Center",
+          "url": "https://www.upperarlingtonoh.gov/295/Bob-Crane-Community-Center"
+        },
+        {
+          "label": "UA Parks & Rec",
+          "url": "https://www.upperarlingtonoh.gov/159/Parks-Recreation"
+        },
+        {
+          "label": "UA Taxes (2.5%)",
+          "url": "https://www.upperarlingtonoh.gov/428/Taxes-in-Upper-Arlington"
+        },
+        {
+          "label": "Labor Day Arts Festival",
+          "url": "https://www.upperarlingtonoh.gov/187/Labor-Day-Arts-Festival"
+        },
+        {
+          "label": "UA Library",
+          "url": "https://www.ualibrary.org/"
+        }
+      ]
+    },
+    {
+      "key": "montgomery",
+      "name": "Montgomery",
+      "tier": "A",
+      "county": "Hamilton",
+      "region": "Cincinnati",
+      "population": 10952,
+      "median_hh_income": 158000,
+      "signature_amenity": "Heritage District + Twin Lakes",
+      "distinctive": "Upscale Cincinnati 'village' with strong civic identity; better Cincinnati peer than Wyoming/Mariemont on size+wealth.",
+      "photo": {
+        "src": "assets/photos/montgomery.jpg",
+        "alt": "Montgomery, Ohio"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Duke Energy",
+        "gas_provider": "Duke Energy",
+        "water": "Greater Cincinnati Water Works",
+        "sewer": "MSD of Greater Cincinnati",
+        "stormwater_fee": null,
+        "ev_chargers": "Not municipally operated; not mentioned on city site"
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Served by Blue Ash and Symmes Township branches of CHPL; no in-city branch",
+        "library_system": "Cincinnati & Hamilton County Public Library",
+        "library_url": "https://chpl.org/",
+        "rec_center_name": null,
+        "senior_center": "No dedicated senior center; programming via Parks & Rec",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Eight parks + nature preserve (96+ ac): Swaim 12.7 ac, Pioneer 21.1 ac, Dulle, Montgomery, Weller. Municipal outdoor pool with wading pool, water slide, diving board.",
+        "trails": "~30+ mi of connecting sidewalks and paved loop trails through park system.",
+        "pickleball": "Tennis/basketball courts at Swaim Park; no dedicated municipal pickleball.",
+        "dog_parks": "No municipal dog park identified.",
+        "library": "Served by Blue Ash + Symmes Township CHPL branches; no in-city library.",
+        "community_center": "No municipal community center; Terwilliger Lodge is a rental venue.",
+        "senior_center": "No dedicated senior center; programs via Parks & Rec.",
+        "ice_rink": "None municipal.",
+        "public_art": "Beautification & Tree Commission; no formal public art program.",
+        "farmers_market": "No dedicated municipal farmers market; downtown DORA + food tours instead.",
+        "concert_series": "BAMSO Independence Day Concert at Montgomery Park; live music at Bastille Day.",
+        "holiday_lighting": "Holiday events in historic downtown.",
+        "deer_management": "2002 Council adopted non-lethal/education policy; controlled hunts deemed unsafe due to density. Limited bow hunting at Gate of Heaven Cemetery only.",
+        "tree_program": "Beautification & Tree Commission active; Tree City USA status not confirmed on city site.",
+        "ev_chargers": "Not advertised on city site.",
+        "downtown": "Historic core along Montgomery & Cooper Roads; DORA designated; signature Bastille Day festival anchors the district."
+      },
+      "schools": {
+        "district": "Sycamore Community Schools",
+        "note": "Shared district with Blue Ash, Symmes Twp, parts of Sycamore Twp; Montgomery Elementary in city"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 1,
+        "tax_credit_other_muni_pct": 1
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Montgomery",
+          "url": "https://www.census.gov/quickfacts/fact/table/montgomerycityohio"
+        },
+        {
+          "label": "Montgomery Tax Office",
+          "url": "https://www.montgomeryohio.gov/departments/tax-office/"
+        },
+        {
+          "label": "Montgomery Community Pool",
+          "url": "https://www.montgomeryohio.gov/departments/community-pool/"
+        },
+        {
+          "label": "Montgomery Parks",
+          "url": "https://www.montgomeryohio.gov/montgomery-parks/"
+        },
+        {
+          "label": "Deer/coyote policy",
+          "url": "https://www.montgomeryohio.gov/question/what-if-i-see-a-coyote-or-deer-in-or-near-my-yard/"
+        },
+        {
+          "label": "Events",
+          "url": "https://www.montgomeryohio.gov/events/"
+        }
+      ]
+    },
+    {
+      "key": "chagrin-falls",
+      "name": "Chagrin Falls",
+      "tier": "B",
+      "county": "Cuyahoga",
+      "region": "NE Ohio",
+      "population": 4144,
+      "median_hh_income": 145000,
+      "signature_amenity": "Literal waterfall in the middle of downtown",
+      "distinctive": "Tiny village with high wealth and a postcard downtown; user-requested.",
+      "photo": {
+        "src": "assets/photos/chagrin-falls.jpg",
+        "alt": "Chagrin Falls waterfall"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Cleveland Electric Illuminating (FirstEnergy)",
+        "water": "Village of Chagrin Falls — operates its OWN water utility (100+ years)",
+        "sewer": "Village of Chagrin Falls municipal sewer",
+        "ev_chargers": null,
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Chagrin Falls Branch · Cuyahoga County Public Library",
+        "library_url": "https://cuyahogalibrary.org/branches/chagrin-falls",
+        "rec_center_name": null,
+        "senior_center": "No dedicated municipal facility",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "No municipal pool; recreation centered on village parks and Chagrin River.",
+        "trails": "Whitesburg Park walking trails along Chagrin River; Riverside Park.",
+        "pickleball": "Pickleball court at River Run Park (rare for a village this size).",
+        "dog_parks": "Dog park at River Run Park.",
+        "library": "Chagrin Falls Branch of CCPL in the historic downtown.",
+        "community_center": "None — relies on partner facilities and Village Hall meeting spaces.",
+        "senior_center": "No dedicated facility.",
+        "ice_rink": "None.",
+        "public_art": "Heavy arts presence via Valley Art Center and downtown galleries (independent nonprofits).",
+        "farmers_market": "Chagrin Falls Farmers Market (seasonal, Sundays at Triangle Park; long-running).",
+        "concert_series": "Summer concerts on the Triangle and at Riverside Park.",
+        "holiday_lighting": "Major holiday lighting on Main Street; New Year's Eve Giant Popcorn Ball Drop (signature).",
+        "deer_management": "Not prominently published.",
+        "tree_program": "Tree City USA not directly confirmed.",
+        "ev_chargers": "Not published.",
+        "downtown": "One of the most walkable, intact historic downtowns in NE Ohio — anchored by the falls, the Popcorn Shop (1875), and Main Street. Blossom Time Festival since 1930s."
+      },
+      "schools": {
+        "district": "Chagrin Falls Exempted Village Schools",
+        "note": "Top-rated small district"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 1.85,
+        "tax_caveat": "Re-verify via RITA — historical 1.5% may have increased"
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Chagrin Falls Village",
+          "url": "https://www.census.gov/quickfacts/fact/table/chagrinfallsvillageohio"
+        },
+        {
+          "label": "Chagrin Falls Departments",
+          "url": "https://www.chagrinfallsoh.gov/157/Departments"
+        },
+        {
+          "label": "Chagrin Falls Parks",
+          "url": "https://www.chagrinfallsoh.gov/235/Parks"
+        },
+        {
+          "label": "Chagrin Falls Utility Billing",
+          "url": "https://www.chagrinfallsoh.gov/221/Utility-Billing-Overview"
+        },
+        {
+          "label": "Chagrin Falls Holidays / Popcorn Ball Drop",
+          "url": "https://www.chagrinfallsoh.gov/368/Holidays"
+        }
+      ]
+    },
+    {
+      "key": "madeira",
+      "name": "Madeira",
+      "tier": "B",
+      "county": "Hamilton",
+      "region": "Cincinnati",
+      "population": 9542,
+      "median_hh_income": 168981,
+      "signature_amenity": "Small, dense, top-rated schools",
+      "distinctive": "Small wealthy Cincinnati boutique suburb; school-driven.",
+      "photo": {
+        "src": "assets/photos/madeira.jpg",
+        "alt": "Madeira, Ohio"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Duke Energy",
+        "water": "Transitioning Nov 2025: dual GCWW/Indian Hill Water Works → GCWW-only over ~2 years (Ord. 25-12)",
+        "sewer": "MSD of Greater Cincinnati",
+        "stormwater_fee": null,
+        "ev_chargers": "Not advertised on city site"
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Madeira Branch · CHPL — renovated July 2020",
+        "library_url": "https://chpl.org/locations/ma/",
+        "rec_center_name": "McDonald Commons Community Room (rentable)",
+        "senior_center": "No dedicated senior center identified",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Three parks led by McDonald Commons (flagship, $13.5M 2023-24 renovation); Sellman Park (10 ac, 2 lighted tennis); Hosbrook Bird Sanctuary (2 ac). Pool model is PRIVATE — Madeira Swim & Tennis Club (residents only).",
+        "trails": "Walking paths in parks; no dedicated multi-mile paved trail.",
+        "pickleball": "2 dedicated pickleball courts at McDonald Commons.",
+        "dog_parks": "No municipal dog park.",
+        "library": "Madeira Branch CHPL (7200 Miami Ave); renovated 2020.",
+        "community_center": "No full rec center; McDonald Commons Community Room reservable.",
+        "senior_center": "No dedicated senior center.",
+        "ice_rink": "None.",
+        "public_art": "Veterans Memorial at McDonald Commons.",
+        "farmers_market": "No dedicated municipal farmers market.",
+        "concert_series": "Street Dance (August); no formal weekly concert series.",
+        "holiday_lighting": "Light-Up Madeira (Chamber-coordinated tree-lighting/Christmas kickoff).",
+        "deer_management": "No municipal program (private pest-control vendors).",
+        "tree_program": "Tree City USA not confirmed.",
+        "ev_chargers": "Not advertised.",
+        "downtown": "Walkable Miami Avenue core anchored by McDonald Commons; Memorial Day march + July 4th parade."
+      },
+      "schools": {
+        "district": "Madeira City Schools",
+        "note": "3 buildings; one of only ~8 Ohio districts to earn 5 stars across all five report-card categories"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 1,
+        "tax_credit_other_muni_pct": 0.6,
+        "sycamore_jedz_pct": 0.75
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Madeira",
+          "url": "https://www.census.gov/quickfacts/fact/table/madeiracityohio"
+        },
+        {
+          "label": "Madeira Parks",
+          "url": "https://www.madeiracity.com/government/departments/parks/index.php"
+        },
+        {
+          "label": "Recreation & Events",
+          "url": "https://www.madeiracity.com/government/departments/recreation_and_events/index.php"
+        },
+        {
+          "label": "Water Provider Transition",
+          "url": "https://www.madeiracity.com/how_do_i_/learn_about/water_provider_transition/index.php"
+        },
+        {
+          "label": "Madeira Tax",
+          "url": "https://www.madeiracity.com/government/departments/tax/index.php"
+        },
+        {
+          "label": "Madeira & Indian Hill Joint Fire District",
+          "url": "https://mihjfd.org/"
+        },
+        {
+          "label": "Madeira Swim & Tennis Club",
+          "url": "https://madeiraswimandtennisclub.com/45243/"
+        }
+      ]
+    },
+    {
+      "key": "mariemont",
+      "name": "Mariemont",
+      "tier": "B",
+      "county": "Hamilton",
+      "region": "Cincinnati",
+      "population": 3403,
+      "median_hh_income": 140000,
+      "signature_amenity": "Master-planned 1920s 'garden suburb' on the National Register",
+      "distinctive": "Mary Emery's master-planned village — Tudor / English-village aesthetic. Tiny but historically singular.",
+      "photo": {
+        "src": "assets/photos/mariemont.jpg",
+        "alt": "Mariemont, Ohio town square"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Duke Energy",
+        "water": "Greater Cincinnati Water Works",
+        "sewer": "MSD of Greater Cincinnati",
+        "trash": "Rumpke (contract; billed on GCWW bill)",
+        "stormwater_fee": null,
+        "ev_chargers": "Not advertised"
+      },
+      "civic": {
+        "has_rec_center": false,
+        "library": "Mariemont Branch · CHPL — recently completed ~$2M renovation",
+        "library_url": "https://chpl.org/locations/mm/",
+        "rec_center_name": "Mariemont Racquet Club (village amenity); Boathouse on Little Miami",
+        "senior_center": "No dedicated senior center identified",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "15+ parks (50+ ac): Dogwood, Ann Buntin Becker, Bell Tower, Concourse, Mary Emery, Dale, South 80. Municipal pool at 6000 Mariemont Ave (three pools — main, lap, baby).",
+        "trails": "South 80: 75+ acres along Little Miami River with ~7 miles of mixed-surface trails, plus community gardens and a campsite.",
+        "pickleball": "Mariemont Racquet Club has tennis; dedicated municipal pickleball not advertised.",
+        "dog_parks": "No municipal dog park.",
+        "library": "Mariemont Branch CHPL, recently renovated (~$2M).",
+        "community_center": "No traditional community center; Racquet Club + Boathouse serve rec functions.",
+        "senior_center": "No dedicated senior center.",
+        "ice_rink": "None.",
+        "public_art": "Mary M. Emery Memorial Carillon (49-bell, 1929 Bell Tower) is the signature cultural asset. Dale Park statuary. Mariemont Preservation Foundation curates historic landscape.",
+        "farmers_market": "Mariemont Farmers Market — Sundays 9:30am-1pm, May-October, at Elementary School lot.",
+        "concert_series": "Sunday-evening summer Bell Tower Carillon concerts at Dogwood Park (Memorial Day → Labor Day).",
+        "holiday_lighting": "Luminaria Festival in early December — village-wide luminaries plus Old Town Square celebration.",
+        "deer_management": "No municipal program detailed.",
+        "tree_program": "Tree City USA not confirmed (village known for tree-lined streets per 1920s plan).",
+        "ev_chargers": "Not advertised.",
+        "downtown": "Mariemont Square — master-planned 1920s Tudor-Revival village center with shops, Mariemont Inn, historic Mariemont Theatre. National Historic Landmark (designated 2007)."
+      },
+      "schools": {
+        "district": "Mariemont City Schools",
+        "note": "Small district; pool membership tied to MCSD residency"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 1.25
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Mariemont",
+          "url": "https://www.census.gov/quickfacts/fact/table/mariemontvillageohio"
+        },
+        {
+          "label": "Mariemont Tax",
+          "url": "https://mariemont.org/departments/tax-office/"
+        },
+        {
+          "label": "Village Parks",
+          "url": "https://mariemont.org/lifestyle/village-parks/"
+        },
+        {
+          "label": "Swimming Pool",
+          "url": "https://mariemont.org/lifestyle/swimming/"
+        },
+        {
+          "label": "South 80 Trails",
+          "url": "https://mariemont.org/lifestyle/south-80-trails-and-community-gardens/"
+        },
+        {
+          "label": "Mary M. Emery Memorial Carillon",
+          "url": "https://mariemont.org/lifestyle/living-here/the-mary-m-emery-memorial-carillon/"
+        },
+        {
+          "label": "History (NHL 2007)",
+          "url": "https://mariemont.org/lifestyle/history-of-the-village-of-mariemont/"
+        },
+        {
+          "label": "Farmers Market",
+          "url": "http://www.mariemont.com/mariemont-farmers-market/"
+        }
+      ]
+    },
+    {
+      "key": "medina",
+      "name": "Medina",
+      "tier": "C",
+      "county": "Medina",
+      "region": "NE Ohio",
+      "population": 25757,
+      "median_hh_income": 77385,
+      "signature_amenity": "Historic Medina Square (Gazebo + Victorian storefronts)",
+      "distinctive": "County-seat city. Size match to Hudson, but median HH income roughly half. A 'what wealthy suburbs take for granted' contrast.",
+      "photo": {
+        "src": "assets/photos/medina.jpg",
+        "alt": "Medina Square gazebo"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Ohio Edison (FirstEnergy)",
+        "water": "City of Medina Water Department (municipal)",
+        "sewer": "Medina County Sanitary Engineers (county-level)",
+        "ev_chargers": null,
+        "stormwater_fee": null
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Medina Library · Medina County District Library (1907 Carnegie-era Franklin Sylvester gift)",
+        "library_url": "https://www.mcdl.info/medina",
+        "rec_center_name": "Medina Recreation Center (855 Weymouth Rd)",
+        "rec_center_url": "https://medinaoh.org/medina-rec/",
+        "rec_center_features": "Aquatics, fitness/wellness, youth and senior programming, hot tub, party rentals",
+        "senior_center": "Programming via Rec Center",
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "Memorial Pool (seasonal community pool) + 14 parks across 800 acres of city parkland.",
+        "trails": "16+ miles of biking and walking/multipurpose trails through park system.",
+        "pickleball": "Pickleball courts throughout the park system.",
+        "dog_parks": "Not specifically listed on Parks page.",
+        "library": "Medina Library is flagship of Medina County District Library; historic 1907 building.",
+        "community_center": "Medina Recreation Center on Weymouth Rd — full-service rec.",
+        "senior_center": "Senior programming via Rec Center.",
+        "ice_rink": "None.",
+        "public_art": "Historic Public Square with park, gazebo, Victorian architecture.",
+        "farmers_market": "Medina Square Farmers Market (Saturdays 9-1, May-Oct, 70+ vendors) + Farmers Market of Medina.",
+        "concert_series": "Free summer concerts on the Public Square.",
+        "holiday_lighting": "Candlelight Walk and Ice Festival are signature holiday events on the Square.",
+        "deer_management": "Not prominently published.",
+        "tree_program": "Status not confirmed.",
+        "ev_chargers": "Not published.",
+        "downtown": "Historic Public Square — late-19th-century Victorian core; among Ohio's most intact courthouse-square downtowns."
+      },
+      "schools": {
+        "district": "Medina City Schools",
+        "note": "Large county-seat district"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 1.25
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Medina",
+          "url": "https://www.census.gov/quickfacts/fact/table/medinacityohio"
+        },
+        {
+          "label": "Medina Rec Center",
+          "url": "https://medinaoh.org/medina-rec/"
+        },
+        {
+          "label": "Medina Parks",
+          "url": "https://medinaoh.org/city-hall/parks/"
+        },
+        {
+          "label": "Medina Water Department",
+          "url": "https://medinaoh.org/city-services/water-department/establishing-water-service/"
+        },
+        {
+          "label": "Medina Income Tax",
+          "url": "https://medinaoh.org/residents/tax-information/"
+        },
+        {
+          "label": "Medina Library",
+          "url": "https://www.mcdl.info/medina"
+        },
+        {
+          "label": "Medina Square Farmers Market",
+          "url": "https://www.mainstreetmedina.com/medina-square-farmers-market.html"
+        }
+      ]
+    },
+    {
+      "key": "ravenna",
+      "name": "Ravenna",
+      "tier": "C",
+      "county": "Portage",
+      "region": "NE Ohio",
+      "population": 11236,
+      "median_hh_income": 45000,
+      "signature_amenity": "Portage County seat + historic downtown",
+      "distinctive": "Explicit downward contrast — county seat at roughly a quarter of Hudson's median income.",
+      "photo": {
+        "src": "assets/photos/ravenna.jpg",
+        "alt": "Ravenna, Ohio"
+      },
+      "utilities": {
+        "electric_is_municipal": false,
+        "fiber_is_municipal": false,
+        "electric_provider": "Ohio Edison (FirstEnergy)",
+        "water": "City of Ravenna Water Treatment (municipal)",
+        "sewer": "City of Ravenna Water Reclamation",
+        "ev_chargers": null,
+        "stormwater_fee": "Yes — city Stormwater Utility (rate not published)"
+      },
+      "civic": {
+        "has_rec_center": true,
+        "library": "Reed Memorial Library (independent, est. 1921 via Judge Cornelius Reed $25K gift; 85K items; 300K circs/year)",
+        "library_url": "https://www.reedlibrary.org/",
+        "rec_center_name": "Ravenna Athletic Center (RAC, ~7,500 sf)",
+        "rec_center_url": "https://www.ravennaoh.gov/departments/parks-recreation/",
+        "rec_center_features": "Fitness machines, indoor track, free weights, cycling studio, group fitness room (notably smaller than peers)",
+        "senior_center": null,
+        "ice_rink": "No"
+      },
+      "amenities": {
+        "parks_pools": "No municipal pool published; 3 named parks (Havre's Woods, John Tontimonia, Chestnut Hills).",
+        "trails": "Trailhead on hike-and-bike trail connecting Ravenna to Cuyahoga Valley National Park.",
+        "pickleball": "Not published.",
+        "dog_parks": "Not published.",
+        "library": "Independent Reed Memorial Library — historic and active community hub.",
+        "community_center": "Ravenna Athletic Center is modest (~7,500 sf) compared to peer rec centers.",
+        "senior_center": "No dedicated facility published.",
+        "ice_rink": "None.",
+        "public_art": "Limited published.",
+        "farmers_market": "Operates seasonally.",
+        "concert_series": "Programming under Events & Activities.",
+        "holiday_lighting": "Annual community events.",
+        "deer_management": "Not published.",
+        "tree_program": "Status not confirmed.",
+        "ev_chargers": "Not published.",
+        "downtown": "Walkable historic Main Street as Portage County seat — anchor for the Balloon A-Fair festival each September."
+      },
+      "schools": {
+        "district": "Ravenna City Schools",
+        "note": "Working-class county-seat district"
+      },
+      "costs": {
+        "municipal_income_tax_pct": 2.25
+      },
+      "sources": [
+        {
+          "label": "Census QuickFacts — Ravenna",
+          "url": "https://www.census.gov/quickfacts/fact/table/ravennacityohio"
+        },
+        {
+          "label": "Ravenna Departments",
+          "url": "https://www.ravennaoh.gov/departments/"
+        },
+        {
+          "label": "Ravenna Parks & Rec",
+          "url": "https://www.ravennaoh.gov/departments/parks-recreation/"
+        },
+        {
+          "label": "Reed Memorial Library",
+          "url": "https://www.reedlibrary.org/"
+        },
+        {
+          "label": "Ravenna Balloon A-Fair",
+          "url": "https://www.ravennaoh.gov/residents/events-activities/balloon-a-fair/"
+        }
+      ]
+    }
+  ],
+  "amenity_categories": [
+    {
+      "key": "library",
+      "title": "Libraries",
+      "blurb": "Library systems are not equal. Some are municipal, some are county branches, some — like Hudson's — are privately endowed institutions with their own historical society.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M12 7v14'/><path d='M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z'/></svg>"
+    },
+    {
+      "key": "community_center",
+      "title": "Community & Rec Centers",
+      "blurb": "Does the city own and operate a major recreation facility — pools, gyms, climbing walls — or do residents go elsewhere?",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M3 21h18'/><path d='M5 21V7l8-4 8 4v14'/><path d='M9 9v.01'/><path d='M9 12v.01'/><path d='M9 15v.01'/><path d='M9 18v.01'/></svg>"
+    },
+    {
+      "key": "parks_pools",
+      "title": "Parks &amp; Pools",
+      "blurb": "Park acreage, named flagships, swim culture (municipal pool vs. swim club).",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M10 10v.2A3 3 0 0 1 8.9 12.5L6 14h12l-2.9-1.5A3 3 0 0 1 14 10.2V10'/><path d='M5 14v6'/><path d='M19 14v6'/><path d='M3 20h18'/><path d='M12 14V8'/><path d='M12 8a3 3 0 0 0-3-3 3 3 0 0 0-3 3v3'/><path d='M12 8a3 3 0 0 1 3-3 3 3 0 0 1 3 3v3'/></svg>"
+    },
+    {
+      "key": "trails",
+      "title": "Trails",
+      "blurb": "Paved miles, mountain-bike, bridle. New Albany's 80+ mile system is the benchmark.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M3 6h4l3 12h4l3-12h4'/></svg>"
+    },
+    {
+      "key": "pickleball",
+      "title": "Pickleball",
+      "blurb": "The current prestige metric for Ohio parks &amp; rec. Dedicated complex or shared courts?",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><circle cx='10' cy='10' r='6'/><path d='M14.5 14.5l5 5'/><path d='M7 7l6 6'/><path d='M9 5l4 4'/><path d='M11 13l-2-2'/></svg>"
+    },
+    {
+      "key": "downtown",
+      "title": "Downtown",
+      "blurb": "Walkable mixed-use core. Hudson's First &amp; Main; New Albany Village Center; Worthington's high street.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M3 21V7l9-4 9 4v14'/><path d='M9 21v-6h6v6'/><path d='M7 9h2v2H7z'/><path d='M11 9h2v2h-2z'/><path d='M15 9h2v2h-2z'/></svg>"
+    },
+    {
+      "key": "farmers_market",
+      "title": "Farmers Market",
+      "blurb": "Seasonal vs. year-round (Worthington runs year-round, which is rare).",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M3 9l9-7 9 7'/><path d='M5 9v10h14V9'/><path d='M9 14v5'/><path d='M15 14v5'/></svg>"
+    },
+    {
+      "key": "concert_series",
+      "title": "Concerts &amp; Events",
+      "blurb": "Recurring civic programming — summer concert series, outdoor movies, music festivals.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M9 18V5l12-2v13'/><circle cx='6' cy='18' r='3'/><circle cx='18' cy='16' r='3'/></svg>"
+    },
+    {
+      "key": "holiday_lighting",
+      "title": "Holiday Traditions",
+      "blurb": "How the town shows up for Christmas, July 4th, and the rest. Hudson's downtown lighting is iconic.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2L8 8h8z'/><path d='M9 8L5 14h14L15 8'/><path d='M7 14l-3 6h16l-3-6'/><path d='M12 20v2'/></svg>"
+    },
+    {
+      "key": "senior_center",
+      "title": "Senior Infrastructure",
+      "blurb": "Dedicated senior facility vs. some senior programming. Worthington's Griswold Center is the high bar.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='6' r='3'/><path d='M4 21v-3a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v3'/></svg>"
+    },
+    {
+      "key": "ice_rink",
+      "title": "Ice Rinks",
+      "blurb": "Municipal or quasi-municipal sheets — most peers rely on regional.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2v20'/><path d='M2 12h20'/><path d='M5 5l14 14'/><path d='M19 5L5 19'/></svg>"
+    },
+    {
+      "key": "public_art",
+      "title": "Public Art",
+      "blurb": "Formal program with a master plan (Dublin) vs. ad hoc sculpture.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M12 19l7-7 3 3-7 7-3-3z'/><path d='M18 13l-1.5-7.5L2 2l3.5 14.5L13 18'/><path d='M2 2l7.586 7.586'/><circle cx='11' cy='11' r='2'/></svg>"
+    },
+    {
+      "key": "ev_chargers",
+      "title": "Public EV Chargers",
+      "blurb": "Count, location, free vs. paid. A modest tell about civic priorities.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M13 22L15 13'/><path d='M11 2L9 11'/><path d='M5 11h14l-7 11z'/></svg>"
+    },
+    {
+      "key": "deer_management",
+      "title": "Deer Management",
+      "blurb": "Quiet but real. Hudson runs a controlled-archery program; Worthington has a formal Deer Management Program.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M6 4l3 5'/><path d='M18 4l-3 5'/><path d='M9 9h6v8a3 3 0 0 1-3 3 3 3 0 0 1-3-3z'/><path d='M9 12h6'/></svg>"
+    },
+    {
+      "key": "tree_program",
+      "title": "Tree Canopy",
+      "blurb": "Tree City USA status, dedicated arborist, sidewalk-conflict policy.",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M12 22V12'/><path d='M12 12c-3 0-5-2-5-5s2-5 5-5 5 2 5 5-2 5-5 5z'/><path d='M9 7c-3 0-5 2-5 5s2 5 5 5'/><path d='M15 7c3 0 5 2 5 5s-2 5-5 5'/></svg>"
+    }
+  ],
+  "hudson_distinctives": [
+    {
+      "title": "Hudson Public Power",
+      "body": "Municipal electric utility — Hudson buys and distributes its own power, rather than paying FirstEnergy. ~10 Ohio cities total run a municipal electric. Translates to faster restoration and (often) lower rates.",
+      "peers": "Statewide comparators: Westerville, Wadsworth, Cleveland Public Power, and a handful of others run their own electric — <strong>but no other city in this benchmark does</strong>. All peers are FirstEnergy (NE Ohio), AEP Ohio (Columbus), or Duke Energy (Cincinnati)."
+    },
+    {
+      "title": "Velocity Broadband",
+      "body": "Municipal fiber-to-the-premises. Originally built for businesses, now serving residences with gigabit service that competes directly with the cable incumbent.",
+      "peers": "Within this benchmark, only <strong>Dublin</strong> has equivalent: DubLink (100 Gbps muni backbone) plus Fiber to Every Home. Fairlawn ran a similar municipal-fiber project. Most peers rely on the cable incumbent and AT&amp;T/Verizon DSL/fiber."
+    },
+    {
+      "title": "Hudson Library &amp; Historical Society",
+      "body": "Privately endowed library — meaning the city is not on the hook for the operating budget the way it would be for a typical municipal library. Won the National Medal for Museum and Library Service in 2009 (the federal government's top library award).",
+      "peers": "In this benchmark, <strong>Bexley Public Library</strong>, <strong>Rocky River Public Library</strong>, <strong>Worthington Libraries</strong>, <strong>Upper Arlington Public Library</strong>, <strong>Mason Public Library</strong>, and <strong>Reed Memorial Library</strong> (Ravenna) are also independent municipal libraries with their own taxing authority. Hudson is unusual in being <em>privately endowed</em> — the city is not on the hook for operating costs the way it would be for a typical municipal library."
+    },
+    {
+      "title": "First &amp; Main",
+      "body": "A 12-building, mixed-use addition to downtown built in the early 2000s — designed to extend the historic Green rather than replace it. A widely studied example of New Urbanist infill.",
+      "peers": "Closest analogs: <strong>New Albany Village Center / Market Square</strong> (planned Georgian) and <strong>Dublin Bridge Park</strong> (modern mixed-use). <strong>Worthington's Old Worthington high street</strong> and <strong>Mariemont Square</strong> (1920s Tudor, National Historic Landmark) are different vintages of the same idea."
+    },
+    {
+      "title": "The Green &amp; Clock Tower",
+      "body": "A genuine Western Reserve common — the kind of village green most Ohio towns lost in the 20th century. The clock tower in the middle is the literal image of Hudson.",
+      "peers": "<strong>Chagrin Falls</strong> Triangle Park, <strong>Worthington</strong> Village Green, <strong>Medina</strong> Public Square (Victorian courthouse square), and <strong>Mariemont Square</strong> are the comparable historic civic spaces."
+    },
+    {
+      "title": "Holiday lighting tradition",
+      "body": "The downtown lighting display is genuinely a destination — locals and visitors specifically come to walk First &amp; Main and the Green in November and December.",
+      "peers": "<strong>Chagrin Falls</strong> goes big on Main Street (plus the New Year's Giant Popcorn Ball Drop). <strong>Mariemont</strong>'s Luminaria Festival is genuinely distinct. <strong>Medina</strong>'s Candlelight Walk and Ice Festival are square-anchored. Most other peers do tasteful but standard municipal decorations."
+    }
+  ],
+  "aspirational": [
+    {
+      "name": "Upper Arlington",
+      "size_note": "Pop. ~36K · larger",
+      "body": "The Ohio gold-standard suburb. <strong>Bob Crane Community Center</strong> (3200 Tremont Rd) is ~165,000 sq ft across 5 floors with an indoor pool, two gyms, walking track, art gallery, e-sports room, and cafe — winner of top OPRA awards. UA also operates three outdoor pools, the <strong>Labor Day Arts Festival</strong> (since 1966, 15K+ visitors), and an <strong>independent UA Public Library</strong> established by Ohio HB 494 in 1967."
+    },
+    {
+      "name": "Dublin",
+      "size_note": "Pop. ~52K · much larger",
+      "body": "<strong>Art in Public Places</strong> is the most formal municipal public-art program in Ohio: established 1988, 60+ permanent installations, a 2021 Master Plan, funded by 6% hotel/motel tax. Dublin also operates <strong>DubLink</strong> — a 100 Gbps municipal fiber backbone — and is rolling out <strong>Fiber to Every Home</strong> (substantially complete 2026). 130+ miles of paved trails. <strong>Dublin has municipal fiber, too</strong> — Hudson is not alone in this benchmark."
+    },
+    {
+      "name": "Mason",
+      "size_note": "Pop. ~37K · larger",
+      "body": "<strong>Mason Community Center</strong> (150,000+ sq ft) + the attached Municipal Aquatic Center: zero-depth leisure pool with spray geysers and tot-slide, lazy river / whirlpool, a <strong>three-story flume slide</strong>, and a 25m × 25yd 11-lane competition pool seating ~800. Mason also has <strong>8 dedicated pickleball courts</strong> at Heritage Oak Park, Pawmyra Dog Park (three size-segregated areas), and 330+ acres of developed parks. Municipal water/sewer/stormwater/trash."
+    },
+    {
+      "name": "Brecksville",
+      "size_note": "Pop. ~14K · NE Ohio aquatics benchmark",
+      "body": "Too small to be a peer on population, but the <strong>Jack A. Hruby Natatorium</strong> (2021, $10M expansion) is the aspirational rec-aquatics benchmark for NE Ohio: indoor activity pool with two enclosed waterslides, 6-lane competition pool, and an outdoor pool with a <strong>rock-climbing wall, zipline, and dump bucket</strong>. Bow hunting allowed for deer management. Cleveland Metroparks Brecksville Reservation (3,026 acres) abuts the city."
+    }
+  ]
+}
